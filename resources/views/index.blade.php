@@ -13,8 +13,8 @@
     <title>About me</title>
 </head>
 <body>
-    <div class="vh-100 vw-100 d-flex bg-dark">
-        <div class="m-auto w-75 d-flex">
+    <div class="vh-100 vw-100 d-flex bg-dark p-5 p-md-2 p-lg-2">
+        <div class="m-auto w-lg-50 d-flex">
             <div class="row m-0 p-0 w-100">
                 <div class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0">
                     <div class="text-white my-auto p-2 text-center text-md-start text-lg-start">
@@ -23,13 +23,13 @@
                         <h3 class="py-0 my-0 text-white">Maula Hakim</h3>
                         <br>
                         <small class="text-secondary mb-1 text-white">i'am a...</small>
-                        <div class="row m-0 p-0 mt-2 mx-auto ms-md-0 ms-lg-0" style="max-width: 250px !important">
+                        <div class="row m-0 p-0 mt-3 mx-auto ms-md-0 ms-lg-0" style="max-width: 450px !important">
                             @php
                                 $passions = ['Graphic Designer','Web Developer'];
                                 $passions_icon = ['graphic-designer-black.png','coding-black.png'];
                             @endphp
                             @foreach ($passions as $index => $val)
-                                <div class="col-12 ps-0 h-100 mb-3 scale scale-1">
+                                <div class="col-12 col-md-12 col-lg-6 px-0 h-100 mb-3 scale scale-1 pe-0 pe-md-3 pe-lg-3">
                                     <div class="card bg-warning">
                                         <div class="card-body p-1 d-flex h-100 w-auto">
                                             <div class="my-auto d-flex p-2 text-dark">
@@ -56,7 +56,7 @@
                                 'https://wa.me/6282132521665',
                             ];
                         @endphp
-                        <div class="row m-0 p-0 mt-2 w-75 mx-auto ms-md-0 ms-lg-0">
+                        <div class="row m-0 p-0 mt-3 w-75 mx-auto ms-md-0 ms-lg-0">
                             @foreach ($contact_icon as $index => $icon_name)
                                 <div class="col-3 col-md-auto col-lg-auto ps-0 h-100 mb-1 mx-auto mx-md-0 mx-lg-0">
                                     <a href="{{ $link[$index] }}" target="_blank">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 order-0 order-md-1 order-lg-1 d-flex">
-                    <img src="{{ asset('img/my-photo.png') }}" class="w-100 mb-5 my-auto scale scale-1" alt="my-photo">
+                    <img src="{{ asset('img/my-photo.png') }}" class="w-75 mb-5 my-md-auto my-lg-auto my-auto scale scale-1 mx-auto" alt="my-photo">
                 </div>
             </div>
         </div>
@@ -76,6 +76,11 @@
 
     {{-- SCRIPT --}}
     <script src="{{ asset('app-assets-b5/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        },false);
+    </script>
     {{-- END SCRIPT --}}
 </body>
 </html>
