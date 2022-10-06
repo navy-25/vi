@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{{ asset('img/briefcase.png') }}"  type="image/icon type">
+    <link rel="icon" href="{{ asset('img/my-photo.png') }}"  type="image/icon type">
     <link href="{{ asset('app-assets-b5/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
     <link href="{{ asset('assets/assets.css') }}" rel="stylesheet" crossorigin="navy">
     <link rel="preconnect" href="https://fonts.googleapis.com">
