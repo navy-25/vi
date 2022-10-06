@@ -18,7 +18,7 @@
             <div class="row m-0 p-0 w-100">
                 <div class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0">
                     <div class="text-white my-auto p-2 text-center text-md-start text-lg-start">
-                        <small class="text-secondary mb-1 text-white "><span class="bg-warning p-1 px-2 me-2">hola!</span> my name is</small>
+                        <small class="text-secondary mb-1 text-white "><span class="bg-warning text-dark p-1 px-2 me-2">hola!</span> my name is</small>
                         <h1 class="py-0 my-0 pt-2 text-warning fw-bold">Muhammad Nafi</h1>
                         <h3 class="py-0 my-0 text-white">Maula Hakim</h3>
                         <br>
