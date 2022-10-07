@@ -16,10 +16,20 @@
         transform: scale(1.3)
     }
 
-    #section1{
+    nav{
+        width: 100%;
+        height: 10vh ;
+    }
+
+    #header{
         background-image: url({{ asset('img/my-photo-2.png') }});
         background-repeat: no-repeat;
         background-position:left bottom;
+    }
+
+    #section1{
+        width: 100%;
+        height: 90vh;
     }
 
     #section2{
@@ -36,8 +46,24 @@
         background-size: 20%;
     }
 
+    .btn-active{
+        color: black !important;
+        background: white !important;
+    }
+
+    .btn-language{
+        color: white;
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid white;
+        border-radius: 100px;
+        padding:3px;
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
     @media only screen and (max-width: 600px) {
-        #section1{
+        #header{
             background-position:center bottom;
         }
         #section2{
