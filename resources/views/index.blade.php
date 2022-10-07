@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="wxGoUUCZTT49-LAf7ekOG4_88GJuBHeBxLVIhHs-lcw">
+    <meta name="keywords" content="viproject, web developer, graphic designer, Muhammad Nafi Maula hakim, Nafi, vidisen">
+    <meta name="author" content="Muhammad Nafi">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('img/my-photo.png') }}"  type="image/icon type">
     <link href="{{ asset('app-assets-b5/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
@@ -10,11 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>About me</title>
+    <title>Welcome to Nafi's Portofolio</title>
 </head>
 <body>
     <div class="vh-100 vw-100 d-flex bg-dark p-5 p-md-2 p-lg-2">
-        <div class="m-auto w-lg-50 d-flex">
+        <div class="m-auto d-flex container px-md-5 px-lg-5">
             <div class="row m-0 p-0 w-100">
                 <div class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0">
                     <div class="text-white my-auto p-2 text-center text-md-start text-lg-start">
@@ -49,11 +53,13 @@
                                 'linkedin-yellow.png',
                                 'instagram-yellow.png',
                                 'whatsapp-yellow.png',
+                                'dribble-yellow.png',
                             ];
                             $link = [
                                 'https://www.linkedin.com/in/muhammad-nafi-maula-hakim-8583b3139',
                                 'https://www.instagram.com/n_vi25',
                                 'https://wa.me/6282132521665',
+                                'https://dribbble.com/n_vi25',
                             ];
                         @endphp
                         <div class="row m-0 p-0 mt-3 w-75 mx-auto ms-md-0 ms-lg-0">
