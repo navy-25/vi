@@ -8,13 +8,16 @@
     <meta name="author" content="Muhammad Nafi">
     <meta name="description" content="Hello, my name is Muhammad Nafi' Maula Hakim. Thank you for visiting my website. If you are interested in my skills, you can get in touch via personal message. Have a nice day. By the way, I'm very interested in programming and graphic design.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{{ asset('img/my-photo.png') }}"  type="image/icon type">
-    <link href="{{ asset('app-assets-b5/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
-    <link href="{{ asset('assets/assets.css') }}" rel="stylesheet" crossorigin="navy">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="{{ asset('img/my-photo.png') }}"  type="image/icon type">
+    <link href="{{ asset('app-assets-b5/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
+    <link href="{{ asset('assets/assets.css') }}" rel="stylesheet" crossorigin="navy">
     <title>Welcome to Nafi's Portofolio</title>
+
+    @include('includes.css')
 </head>
 <body>
     {{-- SECTION 1 --}}
