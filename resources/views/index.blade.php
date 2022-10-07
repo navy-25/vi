@@ -17,7 +17,8 @@
     <title>Welcome to Nafi's Portofolio</title>
 </head>
 <body>
-    <div class="vh-100 vw-100 d-flex bg-dark p-5 p-md-2 p-lg-2">
+    {{-- SECTION 1 --}}
+    <div id="section1" class="vh-100 w-100 d-flex bg-dark p-5 p-md-2 p-lg-2 mx-0">
         <div class="m-auto d-flex container px-md-5 px-lg-5">
             <div class="row m-0 p-0 w-100">
                 <div class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0">
@@ -79,6 +80,41 @@
             </div>
         </div>
     </div>
+    {{-- END SECTION 1 --}}
+    {{-- SECTION 2 --}}
+    <div id="section2" class="w-100 d-flex bg-light p-5 p-md-2 p-lg-2 mx-0"
+        style="
+            background-image: url({{ asset('img/my-photo-1.png') }});
+            background-repeat: no-repeat;
+            background-position:right bottom;
+        ">
+        <div class="m-auto d-flex container px-md-5 px-lg-5">
+            <div class="row mx-0">
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="py-5 p-md-4 p-lg-4"
+                        style="
+                            background-image: url({{ asset('img/coma-2.png') }});
+                            background-repeat: no-repeat;
+                            background-position:left top;
+                            background-size: 20%;
+                        ">
+                        <p class="p-0 pe-md-4 pe-lg-5">
+                            Hello, my name is <b>Muhammad Nafi' Maula hakim</b> but you can call me nafi. I was the first of 4 children. I'm a typical hardworking person, willing to learn new things, and feel challenged if I get a project that's a little complicated. <br><br>
+                            Thank you for visiting my website. If you are interested in my skills, you can get in touch via personal message. Have a nice day. By the way, I'm very interested in <b>graphic design, programmers, data analysts, and creative content</b>.
+                        </p>
+                        <hr style="width: 30%" size="8" class="my-5">
+                        <p>
+                            Best Regards
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 d-none d-md-block d-lg-block">
+                    <img class="w-100" src="{{ asset('img/coma.png') }}" alt="coma">
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- END SECTION 2 --}}
 
     {{-- SCRIPT --}}
     <script src="{{ asset('app-assets-b5/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
