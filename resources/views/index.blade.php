@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="google-site-verification" content="wxGoUUCZTT49-LAf7ekOG4_88GJuBHeBxLVIhHs-lcw">
+    <meta name="google-site-verification" content="z2qT-oHcq7pVEXxmNTAbB19CSGlj4DLNk5dnrohA0Fg">
     <meta name="keywords" content="viproject, web developer, graphic designer, Muhammad Nafi Maula hakim, Nafi, vidisen">
     <meta name="author" content="Muhammad Nafi">
     <meta name="description" content="Hello, my name is Muhammad Nafi' Maula Hakim. Thank you for visiting my website. If you are interested in my skills, you can get in touch via personal message. Have a nice day. By the way, I'm very interested in programming and graphic design.">
