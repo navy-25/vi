@@ -14,7 +14,6 @@
 
     <link rel="icon" href="{{ asset('img/my-photo.png') }}"  type="image/icon type">
     <link href="{{ asset('app-assets-b5/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
-    <link href="{{ asset('assets/assets.css') }}" rel="stylesheet" crossorigin="navy">
     <title>Welcome to Nafi's Portofolio</title>
 
     @include('includes.css')
@@ -85,22 +84,11 @@
     </div>
     {{-- END SECTION 1 --}}
     {{-- SECTION 2 --}}
-    <div id="section2" class="w-100 d-flex bg-light p-5 p-md-2 p-lg-2 mx-0"
-        style="
-            background-image: url({{ asset('img/my-photo-1.png') }});
-            background-repeat: no-repeat;
-            background-position:right bottom;
-        ">
+    <div id="section2" class="w-100 d-flex bg-light p-5 p-md-2 p-lg-2 mx-0">
         <div class="m-auto d-flex container px-md-5 px-lg-5">
             <div class="row mx-0">
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="py-5 p-md-4 p-lg-4"
-                        style="
-                            background-image: url({{ asset('img/coma-2.png') }});
-                            background-repeat: no-repeat;
-                            background-position:left top;
-                            background-size: 20%;
-                        ">
+                    <div id="coma2" class="py-5 p-md-4 p-lg-4">
                         <p class="p-0 pe-md-4 pe-lg-5">
                             Hello, my name is <b>Muhammad Nafi' Maula hakim</b> but you can call me nafi. I was the first of 4 children. I'm a typical hardworking person, willing to learn new things, and feel challenged if I get a project that's a little complicated. <br><br>
                             Thank you for visiting my website. If you are interested in my skills, you can get in touch via personal message. Have a nice day. By the way, I'm very interested in <b>graphic design, programmers, data analysts, and creative content</b>.
