@@ -26,8 +26,8 @@
             <div class="row text-white">
                 <div class="col-12 d-flex">
                     <div class="ms-auto my-auto">
-                        <button id="lang_en" class="btn-circle scale scale-2 btn-active me-2" onclick="active_lang('en')">en</button>
-                        <button id="lang_id" class="btn-circle scale scale-2" onclick="active_lang('id')">id</button>
+                        <button id="lang_en" class="btn-circle lighten scale scale-2 btn-active me-2" onclick="active_lang('en')">en</button>
+                        <button id="lang_id" class="btn-circle lighten scale scale-2" onclick="active_lang('id')">id</button>
                     </div>
                 </div>
             </div>
@@ -46,13 +46,13 @@
                             <br>
                             <div class="row m-0 d-flex">
                                 <div class="text-center text-md-start text-lg-start px-0">
-                                    <button id="man" class="btn-circle scale scale-2 me-2">M</button>
+                                    <button id="man" class="btn-circle lighten scale scale-2 me-2">M</button>
                                     @php
                                         $old = date('Y') - 1999;
                                     @endphp
-                                    <button class="btn-circle scale scale-2 me-2">{{ $old }}</button>
-                                    <button class="btn-circle scale scale-2 me-2">170</button>
-                                    <button class="btn-rounded scale scale-2 me-2">Jombang</button>
+                                    <button class="btn-circle scale lighten scale-2 me-2">{{ $old }}</button>
+                                    <button class="btn-circle scale lighten scale-2 me-2">170</button>
+                                    <button class="btn-rounded scale lighten scale-2 me-2">Jombang</button>
                                 </div>
                             </div>
                             <br>
@@ -152,18 +152,18 @@
             <center>
                 <h3 id="edu_title">Education History</h3>
                 <hr style="width: 100px" size="5" class="my-5">
+                @php
+                    $school_name_en = ['Ar Roudlotul Ilmiah','SMK Muhammadiyah 1','Muhammadiyah Malang'];
+                    $school_name_id = ['Ar Roudlotul Ilmiah','SMK Muhammadiyah 1','Muhammadiyah Malang'];
+                    $vational_en = ['none','Multimedia','Informatics Engineering'];
+                    $vational_id = ['none','Multimedia','Teknik Informatika'];
+                    $school_level_en = ['Madrasah Tsanawiyah (2011-2014)','Vocational Schools (2014-2017)','University (2017-2021)'];
+                    $school_level_id = ['Madrasah Tsanawiyah (2011-2014)','Sekolah Kejurusan (2014-2017)','Universitas (2017-2021)'];
+                    $school_icon = ['quran-black.png','multimedia-black.png','coding-black.png'];
+                    $school_place_en= ['Nganjuk, East Java','Nganjuk, East Java','Malang, East Java'];
+                    $school_place_id= ['Nganjuk, Jawa Timur','Nganjuk, Jawa Timur','Malang, Jawa Timur'];
+                @endphp
                 <div class="row">
-                    @php
-                        $school_name_en = ['Ar Roudlotul Ilmiah','SMK Muhammadiyah 1','Muhammadiyah Malang'];
-                        $school_name_id = ['Ar Roudlotul Ilmiah','SMK Muhammadiyah 1','Muhammadiyah Malang'];
-                        $vational_en = ['none','Multimedia','Informatics Engineering'];
-                        $vational_id = ['none','Multimedia','Teknik Informatika'];
-                        $school_level_en = ['Madrasah Tsanawiyah (2011-2014)','Vocational Schools (2014-2017)','University (2017-2021)'];
-                        $school_level_id = ['Madrasah Tsanawiyah (2011-2014)','Sekolah Kejurusan (2014-2017)','Universitas (2017-2021)'];
-                        $school_icon = ['quran-black.png','multimedia-black.png','coding-black.png'];
-                        $school_place_en= ['Nganjuk, East Java','Nganjuk, East Java','Malang, East Java'];
-                        $school_place_id= ['Nganjuk, Jawa Timur','Nganjuk, Jawa Timur','Malang, Jawa Timur'];
-                    @endphp
                     @foreach ($school_icon as $index => $val)
                         <div class="col-12 col-md-4 col-lg-4 mb-3">
                             <div class="bg-warning p-4 mb-3" style="border-radius: 100%;width: 100px;height: 100px;">
@@ -177,15 +177,103 @@
                     @endforeach
                 </div>
             </center>
-            {{-- <div class="row mx-0" ">
-                <div class="col-12">
-                    <p>Education</p>
-                </div>
-            </div> --}}
         </div>
     </div>
     {{-- END SECTION 3 --}}
 
+    {{-- SECTION 4 --}}
+    <div id="section4" class="w-100 d-flex bg-warning p-5 p-md-5 p-lg-5 mx-0 px-2">
+        <div class="m-auto container px-2 px-md-5 px-lg-5">
+            <center>
+                <h3 id="experience_title">Work Experiences</h3>
+                <hr style="width: 100px" size="5" class="my-5">
+            </center>
+            <div class="row mx-0">
+                <center>
+                    <div class="col-12 mb-3 rounded">
+                        @php
+                            $job_icon = [
+                                'vidisen-logo.png',
+                                'indoai-logo.png',
+                                'grab-logo.png',
+                            ];
+                            $job_name = [
+                                'ViDisen - Jasa Desain Grafis',
+                                'PT. Teknologi Artifisial Indonesia',
+                                'PT. Grab Indonesia',
+                            ];
+                            $job_position = [
+                                'Graphic Designer & Owner',
+                                'Mentor - Basic Python Programming',
+                                'Driver Grab Bike',
+                            ];
+                            $job_years = [
+                                'January 2019 - Now',
+                                'January 2021 - May 2021',
+                                'April 2018 - October 2020',
+                            ];
+                            $job_type = [
+                                'Freelance',
+                                'Part Time',
+                                'Part Time',
+                            ];
+                            $job_category = [
+                                'Service',
+                                'Mentoring',
+                                'Service',
+                            ];
+                            $job_desc = [
+                                [
+                                    'Menyelesaikan desain sesuai dengan apa yang dimau pelanggan',
+                                    'Mampu mengerjakan beberapa kategori desain seperti : Logo, Flyer/Poster, UI Aplikasi, Karakter/Maskot, Keperluan Acara (Banner/Merchandise/dsb)',
+                                    'Melakukan promosi sekaligus menangani pelanggan secara daring/luring',
+                                ],
+                                [
+                                    'Melakukan proses belajar mengajar (mentoring) dengan class yang sudah ditentukan perbulanya',
+                                    'Memberikan materi dan pelatihan terkait bahasa pemrograman python',
+                                    'Pemberian Tugas setiap mingugnya',
+                                    'Menjawab pertanyaan dari mente (Mahasiswa/orang yang ikut course online)',
+                                    'Monitoring dan evaluasi',
+                                ],
+                                [
+                                    'Menyelesaikan lebih dari 20 tugas utama perharinya',
+                                    'Mampu bekerja 4-5 jam perhari',
+                                    'Memiliki rating 4.9/5',
+                                    'Jujur dan selalu berusaha memberikan pelayanan terbaik',
+                                    'Mengutamakan Keselamatan dan ketepatan waktu',
+                                ]
+                            ];
+                        @endphp
+                        <div class="row mx-0">
+                            @foreach ($job_icon as $index => $val)
+                                <div class="col-3 col-md-3 col-lg-2">
+                                    <img src="{{ asset('img/').'/'.$val }}" class="w-100" alt="grab">
+                                </div>
+                                <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
+                                    <h4 class="my-0">{{ $job_position[$index] }}</h4>
+                                    <small>{{ $job_name[$index] }}</small> <br> <br>
+                                    <div class="d-inline-block">
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_years[$index] }}</button>
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_type[$index] }}</button>
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_category[$index] }}</button>
+                                    </div>
+                                </div>
+                                <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
+                                <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
+                                    <ul>
+                                        @foreach ($job_desc[$index] as $list)
+                                            <li>{{ $list }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    {{-- END SECTION 4 --}}
 
     {{-- SCRIPT --}}
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>

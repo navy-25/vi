@@ -48,6 +48,11 @@
         height: 75vh;
     }
 
+    #section4{
+        width: 100%;
+        height: auto;
+    }
+
     #coma2{
         background-image: url({{ asset('img/coma-2.png') }});
         background-repeat: no-repeat;
@@ -61,9 +66,6 @@
     }
 
     .btn-circle{
-        color: white;
-        background: rgba(255, 255, 255, 0);
-        border: 1px solid white;
         border-radius: 100px;
         padding:3px;
         font-size: 10px;
@@ -72,23 +74,32 @@
     }
 
     .btn-rounded{
-        color: white;
-        background: rgba(255, 255, 255, 0);
-        border: 1px solid white;
         border-radius: 100px;
         padding:3px;
         font-size: 10px;
         height: 30px;
         padding: 0px 15px
     }
+    .lighten{
+        color: white;
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid white;
+    }
 
-    .btn-circle:hover{
+    .darken{
+        color: rgb(17, 17, 17);
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid rgb(17, 17, 17);
+    }
+
+    .lighten:hover{
         background: rgba(255, 255, 255, 0.199);
     }
 
-    .btn-rounded:hover{
-        background: rgba(255, 255, 255, 0.199);
+    .darken:hover{
+        background: rgba(39, 39, 39, 0.068);
     }
+
 
     @media only screen and (max-width: 600px) {
         #header{
@@ -97,6 +108,10 @@
         #section2{
             background-position:center bottom !important;
             height:100vh !important;
+        }
+
+        #section3{
+            height: auto;
         }
     }
 </style>
