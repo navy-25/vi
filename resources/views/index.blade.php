@@ -81,7 +81,7 @@
                             </div>
                             <br>
                             <small id="contact" class="text-secondary mb-1 text-white">
-                                contact me
+                                contact
                             </small>
                             @php
                                 $contact_icon = [
@@ -203,7 +203,7 @@
 
                 $('#name').text('nama saya adalah')
                 $('#iam').text('saya seorang...')
-                $('#contact').text('hubungi saya')
+                $('#contact').text('narahubung')
                 $('#man').text('L')
 
                 var passions = '{{ implode("|",$passions_id) }}'.split('|')
@@ -250,7 +250,7 @@
 
                 $('#name').text('my name is')
                 $('#iam').text("i'am a...")
-                $('#contact').text("contact me")
+                $('#contact').text("contact")
                 $('#man').text('M')
 
                 var passions = '{{ implode("|",$passions_en) }}'.split('|')
