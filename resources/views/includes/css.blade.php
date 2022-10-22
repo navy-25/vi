@@ -56,6 +56,11 @@
         background-size: cover !important;
     }
 
+    #section5{
+        width: 100%;
+        height: auto;
+    }
+
     #coma2{
         background-image: url({{ asset('img/coma-2.png') }});
         background-repeat: no-repeat;
@@ -165,6 +170,17 @@
         body{
             padding-bottom: 8vh !important;
         }
-    }
 
+        /* #carCap{
+            display: none;
+        } */
+    }
+    .carousel-item{
+        transition: all 1s ease-out;
+    }
+    .img-carousel{
+        width: 100% !important;
+        aspect-ratio: 4/3 !important;
+        background-size:contain !important;
+    }
 </style>
