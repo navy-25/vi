@@ -1,5 +1,5 @@
 <div class="container-fluid m-0 p-0 bg-dark " id="header">
-    <nav class="container px-3 px-md-5 px-lg-5 py-2">
+    <nav class="container px-3 px-md-5 px-lg-5 py-2 pt-md-4 pt-lg-4">
         <div class="row text-white">
             <div class="col-12 d-flex">
                 <div class="ms-auto my-auto">

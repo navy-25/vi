@@ -51,6 +51,9 @@
     #section4{
         width: 100%;
         height: auto;
+        background-image: url({{ asset('img/bg-work.png') }}) !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
     }
 
     #coma2{
