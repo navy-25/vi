@@ -100,7 +100,6 @@
         background: rgba(39, 39, 39, 0.068);
     }
 
-
     @media only screen and (max-width: 600px) {
         #header{
             background-position:center bottom;
