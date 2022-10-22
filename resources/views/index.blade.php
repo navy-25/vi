@@ -108,7 +108,7 @@
                             @endphp
                             <div class="row m-0 p-0 mt-3 w-75 mx-auto ms-md-0 ms-lg-0">
                                 @foreach ($contact_icon as $index => $icon_name)
-                                    <div class="col-3 col-md-auto col-lg-auto ps-0 h-100 mb-1 mx-auto mx-md-0 mx-lg-0">
+                                    <div class="col-2 col-md-auto col-lg-auto ps-0 h-100 mb-1 mx-auto mx-md-0 mx-lg-0">
                                         <a href="{{ $link[$index] }}" target="_blank" title="{{ $label[$index] }}">
                                             <img src="{{ asset('img/').'/'.$icon_name }}" class="me-1 scale scale-2" width="30" height="30" alt="image-{{ str_replace(' ','-',strtolower($icon_name)) }}">
                                         </a>
@@ -193,36 +193,60 @@
                     <div class="col-12 mb-3 rounded">
                         @php
                             $job_icon = [
+                                'indoai-logo.png',
+                                'headway-logo.png',
                                 'vidisen-logo.png',
                                 'indoai-logo.png',
                                 'grab-logo.png',
                             ];
                             $job_name = [
+                                'PT. Teknologi Artifisial Indonesia',
+                                'PT. Heksa Adhitek Wayatama',
                                 'ViDisen - Jasa Desain Grafis',
                                 'PT. Teknologi Artifisial Indonesia',
                                 'PT. Grab Indonesia',
                             ];
-                            $job_position = [
-                                'Graphic Designer & Owner',
-                                'Mentor - Basic Python Programming',
+                            $job_position_in = [
+                                'Tim Kreatif/Content Creator',
+                                'Pengembang Web Fullstack',
+                                'Desainer Grafis & Owner',
+                                'Mentor - Pemrograman Python Dasar',
                                 'Driver Grab Bike',
                             ];
-                            $job_years = [
-                                'January 2019 - Now',
-                                'January 2021 - May 2021',
-                                'April 2018 - October 2020',
+                            $job_years_in = [
+                                'Januari 2022 - Sekarang',
+                                'Agustus 2021 - Sekarang',
+                                'Januari 2019 - Sekarang',
+                                'Januari 2021 - Mei 2021',
+                                'April 2018 - Oktober 2020',
                             ];
-                            $job_type = [
-                                'Freelance',
-                                'Part Time',
-                                'Part Time',
+                            $job_type_in = [
+                                'Paruh Waktu',
+                                'Penuh Waktu',
+                                'Pekerja Lepas',
+                                'Paruh Waktu',
+                                'Paruh Waktu',
                             ];
-                            $job_category = [
-                                'Service',
+                            $job_category_in = [
+                                'Layanan',
+                                'Layanan',
+                                'Layanan',
                                 'Mentoring',
-                                'Service',
+                                'Layanan',
                             ];
-                            $job_desc = [
+                            $job_desc_in = [
+                                [
+                                    'Merencanakan konten sosial media (Content Planning)',
+                                    'Penulisan Konten Marketing & Sosial Media (Copywriting)',
+                                    'Mengerjakan desain untuk konten sosial media menggunakan Corel Draw, Photoshop, ataupun Adobe Ilustrator',
+                                ],
+                                [
+                                    'Bekerja sebagai Pengembang web secara penuh waktu',
+                                    'Pemeliharaan aplikasi web (Maintance)',
+                                    'Mengembangkan website dengan framework Laravel',
+                                    'Mempelajari berbagai macam framework untuk membantu pengerjaan dalam projek kantor',
+                                    'Mengerjakan dan Pengelolaan aplikasi perusahaan',
+                                ],
                                 [
                                     'Menyelesaikan desain sesuai dengan apa yang dimau pelanggan',
                                     'Mampu mengerjakan beberapa kategori desain seperti : Logo, Flyer/Poster, UI Aplikasi, Karakter/Maskot, Keperluan Acara (Banner/Merchandise/dsb)',
@@ -231,7 +255,7 @@
                                 [
                                     'Melakukan proses belajar mengajar (mentoring) dengan class yang sudah ditentukan perbulanya',
                                     'Memberikan materi dan pelatihan terkait bahasa pemrograman python',
-                                    'Pemberian Tugas setiap mingugnya',
+                                    'Pemberian Tugas setiap minggunya',
                                     'Menjawab pertanyaan dari mente (Mahasiswa/orang yang ikut course online)',
                                     'Monitoring dan evaluasi',
                                 ],
@@ -243,25 +267,86 @@
                                     'Mengutamakan Keselamatan dan ketepatan waktu',
                                 ]
                             ];
+                            $job_position_eng = [
+                                'Creative Team/Content Creator',
+                                'Fullstack Web Developer',
+                                'Graphic Designer & Owner',
+                                'Mentor - Basic Python Programming',
+                                'Driver Grab Bike',
+                            ];
+                            $job_years_eng = [
+                                'January 2022 - Now',
+                                'August 2021 - Now',
+                                'January 2019 - Now',
+                                'January 2021 - May 2021',
+                                'April 2018 - October 2020',
+                            ];
+                            $job_type_eng = [
+                                'Part Time',
+                                'Full Time',
+                                'Freelance',
+                                'Part Time',
+                                'Part Time',
+                            ];
+                            $job_category_eng = [
+                                'Service',
+                                'Service',
+                                'Service',
+                                'Mentoring',
+                                'Service',
+                            ];
+                            $job_desc_eng = [
+                                [
+                                    'Planning social media content (Content Planning)',
+                                    'Content Writing Marketing & Social Media (Copywriting)',
+                                    'Work on designs for social media content using Corel Draw, Photoshop, or Adobe Illustrator',
+                                ],
+                                [
+                                    'Work as a web Developer on a full-time basis',
+                                    'Web application maintenance',
+                                    'Developing a website with the Laravel framework',
+                                    'Learn various frameworks to help work in office projects',
+                                    'Work on and Manage enterprise applications',
+                                ],
+                                [
+                                    'Complete the design according to what the customer wants',
+                                    'Able to work on several design categories such as: Logo, Flyer / Poster, Application UI, Character / Mascot, Event Needs (Banner/Merchandise/etc)',
+                                    'Conducting promotions while handling customers online / offline',
+                                ],
+                                [
+                                    'Conducting the teaching and learning process (mentoring) with predetermined classes/month',
+                                    'Providing materials and training related to the python programming language',
+                                    'Assignments every week',
+                                    'Answering questions from the cashew (Students / people who take the online course)',
+                                    'Monitoring and evaluation',
+                                ],
+                                [
+                                    'Complete more than 20 main tasks per day',
+                                    'Able to work 4-5 hours/day',
+                                    'Have a rating 4.9/5',
+                                    'Honest and always try to provide the best service',
+                                    'Safety and punctuality first',
+                                ]
+                            ];
                         @endphp
-                        <div class="row mx-0">
+                        <div class="row mx-0" id="id_work_experience">
                             @foreach ($job_icon as $index => $val)
                                 <div class="col-3 col-md-3 col-lg-2">
                                     <img src="{{ asset('img/').'/'.$val }}" class="w-100" alt="grab">
                                 </div>
                                 <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
-                                    <h4 class="my-0">{{ $job_position[$index] }}</h4>
+                                    <h4 class="my-0">{{ $job_position_eng[$index] }}</h4>
                                     <small>{{ $job_name[$index] }}</small> <br> <br>
                                     <div class="d-inline-block">
-                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_years[$index] }}</button>
-                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_type[$index] }}</button>
-                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_category[$index] }}</button>
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_years_eng[$index] }}</button>
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_type_eng[$index] }}</button>
+                                        <button class="btn-rounded darken me-2 mb-2">{{ $job_category_eng[$index] }}</button>
                                     </div>
                                 </div>
                                 <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
                                 <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
                                     <ul>
-                                        @foreach ($job_desc[$index] as $list)
+                                        @foreach ($job_desc_eng[$index] as $list)
                                             <li>{{ $list }}</li>
                                         @endforeach
                                     </ul>
@@ -285,6 +370,9 @@
         feather.replace()
 
         function active_lang(type){
+            var job_icon = '{{ implode("|",$job_icon) }}'.split('|')
+            var job_name = '{{ implode("|",$job_name) }}'.split('|')
+            $('#id_work_experience').html('')
             if(type == 'id'){
                 $('#lang_id').addClass('btn-active')
                 $('#lang_en').removeClass('btn-active')
@@ -293,6 +381,39 @@
                 $('#iam').text('saya seorang...')
                 $('#contact').text('narahubung')
                 $('#man').text('L')
+                $('#experience_title').text('Pengalaman Kerja')
+
+                var job_position_eng    = '{{ implode("|",$job_position_eng) }}'.split('|')
+                var job_years_eng       = '{{ implode("|",$job_years_eng) }}'.split('|')
+                var job_type_eng        = '{{ implode("|",$job_years_eng) }}'.split('|')
+                var job_category_eng    = '{{ implode("|",$job_category_eng) }}'.split('|')
+                var job_desc_eng        = JSON.parse('{{ json_encode($job_desc_eng) }}'.replaceAll('&quot;','"'))
+                Object.entries(job_icon).forEach(([key, value]) => {
+                    var image = "{{ asset('img/') }}"+'/'+value
+                    $('#id_work_experience').append(`
+                        <div class="col-3 col-md-3 col-lg-2">
+                            <img src="`+image+`" class="w-100" alt="`+value+`">
+                        </div>
+                        <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
+                            <h4 class="my-0">`+job_position_eng[key]+`</h4>
+                            <small>`+job_name[key]+`</small> <br> <br>
+                            <div class="d-inline-block">
+                                <button class="btn-rounded darken me-2 mb-2">`+job_years_eng[key]+`</button>
+                                <button class="btn-rounded darken me-2 mb-2">`+job_type_eng[key]+`</button>
+                                <button class="btn-rounded darken me-2 mb-2">`+job_category_eng[key]+`</button>
+                            </div>
+                        </div>
+                        <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
+                        <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
+                            <ul id="detail_eng_`+key+`"></ul>
+                        </div>
+                    `)
+                    Object.entries(job_desc_eng[key]).forEach(([key_2, value_2]) => {
+                        $('#detail_eng_'+key).append(`
+                            <li>`+value_2+`</li>
+                        `)
+                    })
+                })
 
                 var passions = '{{ implode("|",$passions_id) }}'.split('|')
                 Object.entries(passions).forEach(([key, value]) => {
@@ -340,6 +461,39 @@
                 $('#iam').text("i'am a...")
                 $('#contact').text("contact")
                 $('#man').text('M')
+                $('#experience_title').text('Work Experiences')
+
+                var job_position_in    = '{{ implode("|",$job_position_in) }}'.split('|')
+                var job_years_in       = '{{ implode("|",$job_years_in) }}'.split('|')
+                var job_type_in        = '{{ implode("|",$job_years_in) }}'.split('|')
+                var job_category_in    = '{{ implode("|",$job_category_in) }}'.split('|')
+                var job_desc_in        = JSON.parse('{{ json_encode($job_desc_in) }}'.replaceAll('&quot;','"'))
+                Object.entries(job_icon).forEach(([key, value]) => {
+                    var image = "{{ asset('img/') }}"+'/'+value
+                    $('#id_work_experience').append(`
+                        <div class="col-3 col-md-3 col-lg-2">
+                            <img src="`+image+`" class="w-100" alt="`+value+`">
+                        </div>
+                        <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
+                            <h4 class="my-0">`+job_position_in[key]+`</h4>
+                            <small>`+job_name[key]+`</small> <br> <br>
+                            <div class="d-inline-block">
+                                <button class="btn-rounded darken me-2 mb-2">`+job_years_in[key]+`</button>
+                                <button class="btn-rounded darken me-2 mb-2">`+job_type_in[key]+`</button>
+                                <button class="btn-rounded darken me-2 mb-2">`+job_category_in[key]+`</button>
+                            </div>
+                        </div>
+                        <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
+                        <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
+                            <ul id="detail_in_`+key+`"></ul>
+                        </div>
+                    `)
+                    Object.entries(job_desc_in[key]).forEach(([key_2, value_2]) => {
+                        $('#detail_in_'+key).append(`
+                            <li>`+value_2+`</li>
+                        `)
+                    })
+                })
 
                 var passions = '{{ implode("|",$passions_en) }}'.split('|')
                 Object.entries(passions).forEach(([key, value]) => {
