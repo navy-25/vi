@@ -1,5 +1,5 @@
 <div class="container-fluid m-0 p-0 bg-dark " id="header">
-    <nav class="container px-3 px-md-5 px-lg-5 py-4">
+    <nav class="container px-3 px-md-5 px-lg-5 py-2">
         <div class="row text-white">
             <div class="col-12 d-flex">
                 <div class="ms-auto my-auto">
@@ -9,7 +9,7 @@
             </div>
         </div>
     </nav>
-    <div id="section1" class="d-flex p-5 p-md-2 p-lg-2 m-0">
+    <div id="section1" class="d-flex p-5 pt-0 p-md-2 p-lg-2 m-0">
         <div class="m-auto d-flex container px-md-5 px-lg-5">
             <div class="row m-0 p-0 w-100">
                 <div class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0">
@@ -48,7 +48,6 @@
                                 </div>
                             @endforeach
                         </div>
-                        <br>
                         <small id="contact" class="text-secondary mb-1 text-white">
                             contact
                         </small>
@@ -64,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 order-0 order-md-1 order-lg-1 d-flex">
-                    <img src="{{ asset('img/my-photo.png') }}" class="w-75 mb-5 my-md-auto my-lg-auto my-auto scale scale-1 mx-auto" alt="my-photo">
+                    <img src="{{ asset('img/my-photo.png') }}" class="w-75 mb-2 my-md-auto my-lg-auto my-auto scale scale-1 mx-auto" alt="my-photo">
                 </div>
             </div>
         </div>

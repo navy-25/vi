@@ -45,7 +45,7 @@ class WebsiteController extends Controller
         $data['job_icon']           = ['indoai-logo.png', 'headway-logo.png', 'vidisen-logo.png', 'indoai-logo.png', 'grab-logo.png',];
         $data['job_name']           = ['PT. Teknologi Artifisial Indonesia', 'PT. Heksa Adhitek Wayatama', 'ViDisen - Jasa Desain Grafis', 'PT. Teknologi Artifisial Indonesia', 'PT. Grab Indonesia',];
         $data['job_position_in']    = ['Tim Kreatif/Content Creator', 'Pengembang Web Fullstack', 'Desainer Grafis & Owner', 'Mentor - Pemrograman Python Dasar', 'Driver Grab Bike',];
-        $data['job_years_in']       = ['Januari 2022 - Sekarang', 'Agustus 2021 - Sekarang', 'Januari 2019 - Sekarang', 'Januari 2021 - Mei 2021', 'April 2018 - Oktober 2020',];
+        $data['job_years_in']       = ['Jan 2022 - Sekarang', 'Agu 2021 - Sekarang', 'Jan 2019 - Sekarang', 'Jan 2021 - Mei 2021', 'Apr 2018 - Okt 2020',];
         $data['job_type_in']        = ['Paruh Waktu', 'Penuh Waktu', 'Pekerja Lepas', 'Paruh Waktu', 'Paruh Waktu',];
         $data['job_category_in']    = ['Layanan', 'Layanan', 'Layanan', 'Mentoring', 'Layanan',];
         $data['job_desc_in']        = [
@@ -82,7 +82,7 @@ class WebsiteController extends Controller
             ],
         ];
         $data['job_position_eng']   = ['Creative Team/Content Creator', 'Fullstack Web Developer', 'Graphic Designer & Owner', 'Mentor - Basic Python Programming', 'Driver Grab Bike',];
-        $data['job_years_eng']      = ['January 2022 - Now', 'August 2021 - Now', 'January 2019 - Now', 'January 2021 - May 2021', 'April 2018 - October 2020',];
+        $data['job_years_eng']      = ['Jan 2022 - Now', 'Aug 2021 - Now', 'Jan 2019 - Now', 'Jan 2021 - May 2021', 'Apr 2018 - Oct 2020',];
         $data['job_type_eng']       = ['Part Time', 'Full Time', 'Freelance', 'Part Time', 'Part Time',];
         $data['job_category_eng']   = ['Service', 'Service', 'Service', 'Mentoring', 'Service',];
         $data['job_desc_eng']       = [

@@ -22,7 +22,7 @@
 
     nav{
         width: 100%;
-        height: 10vh ;
+        height: 6vh ;
     }
 
     #header{
@@ -33,7 +33,7 @@
 
     #section1{
         width: 100%;
-        height: 90vh;
+        height: 94vh;
     }
 
     #section2{
@@ -112,5 +112,56 @@
         #section3{
             height: auto;
         }
+
+        /* NAV BOTTOM */
+        .nav-bottom{
+            width: 100% !important;
+            height: 8vh !important;
+            position: fixed !important;
+            bottom: 20px !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            display: block !important;
+            z-index: 10;
+        }
+        .nav-content{
+            background: rgba(255, 255, 255, 0.95) !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 20px !important;
+            box-shadow: 0px 0px 35px 0px #00000038;
+        }
+        .list-menu{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            height: 100%;
+        }
+        .menu-btn{
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+        .menu-icon{
+            color: rgba(39, 39, 39) !important;
+            text-decoration: none !important;
+            transition: all 0.2s ease-out;
+        }
+        .menu-icon:hover{
+            transform: scale(1.2) !important;
+            padding: 15px !important;
+            background: #ffc107 !important;
+            border-radius: 100% !important;
+        }
+        .menu-btn .active{
+            transform: scale(1.2) !important;
+            padding: 15px !important;
+            background: #ffc107 !important;
+            border-radius: 100% !important;
+        }
+        /* END NAV BOTTOM */
+        body{
+            padding-bottom: 8vh !important;
+        }
     }
+
 </style>
