@@ -178,6 +178,7 @@
     .carousel-item{
         transition: all 1s ease-out;
     }
+
     .img-carousel{
         width: 100% !important;
         aspect-ratio: 4/3 !important;
