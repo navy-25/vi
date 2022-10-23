@@ -12,9 +12,10 @@
     }
 
     function active_lang(type){
-        var job_icon        = '{{ implode("|",$data['job_icon']) }}'.split('|')
-        var job_name        = '{{ implode("|",$data['job_name']) }}'.split('|')
-        var award_thumbnail = '{{ implode("|",$data['award_thumbnail']) }}'.split('|')
+        var job_icon                = '{{ implode("|",$data['job_icon']) }}'.split('|')
+        var job_name                = '{{ implode("|",$data['job_name']) }}'.split('|')
+        var award_thumbnail         = '{{ implode("|",$data['award_thumbnail']) }}'.split('|')
+        var award_thumbnail_mobile  = '{{ implode("|",$data['award_thumbnail_mobile']) }}'.split('|')
         $('#id_work_experience').html('')
         $('#carousel').html('')
         if(type == 'id'){
@@ -36,13 +37,19 @@
                 }else{
                     isActive = ''
                 }
-                var crl_src = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                var crl_src     = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                var crl_src_mbl = '{{ asset('img/award/').'/' }}'+award_thumbnail_mobile[key]
                 $('#carousel').append(`
-                    <div class="carousel-item `+isActive+`">
-                        <img src="`+crl_src+`" class="d-block w-100 img-carousel" alt="`+award_thumbnail[key]+`">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
-                            <p class="text-white">`+award_desc_in[key]+`</p>
+                    <div class="carousel-item px-2 `+isActive+`">
+                        <div class="img-carousel d-block d-md-none">
+                            <img src="`+crl_src_mbl+`" class="d-block d-md-none w-100" alt="`+award_thumbnail_mobile[key]+`">
+                        </div>
+                        <div class="img-carousel">
+                            <img src="`+crl_src+`" class="d-none d-md-block w-100" alt="`+award_thumbnail[key]+`">
+                            <div class="carousel-caption">
+                                <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
+                                <p class="text-white">`+award_desc_in[key]+`</p>
+                            </div>
                         </div>
                     </div>
                 `)
@@ -137,13 +144,19 @@
                 }else{
                     isActive = ''
                 }
-                var crl_src = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                var crl_src     = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                var crl_src_mbl = '{{ asset('img/award/').'/' }}'+award_thumbnail_mobile[key]
                 $('#carousel').append(`
-                    <div class="carousel-item `+isActive+`">
-                        <img src="`+crl_src+`" class="d-block w-100 img-carousel" alt="`+award_thumbnail[key]+`">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
-                            <p class="text-white">`+award_desc_eng[key]+`</p>
+                    <div class="carousel-item px-2 `+isActive+`">
+                        <div class="img-carousel d-block d-md-none">
+                            <img src="`+crl_src_mbl+`" class="d-block d-md-none w-100" alt="`+award_thumbnail_mobile[key]+`">
+                        </div>
+                        <div class="img-carousel">
+                            <img src="`+crl_src+`" class="d-none d-md-block w-100" alt="`+award_thumbnail[key]+`">
+                            <div class="carousel-caption">
+                                <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
+                                <p class="text-white">`+award_desc_eng[key]+`</p>
+                            </div>
                         </div>
                     </div>
                 `)
