@@ -120,11 +120,48 @@ class WebsiteController extends Controller
         // END SECTION 4
 
         // SECTION 5
-        $data['award_name_in']      = ['Juara 3 Lomba KTI di IT Convert', 'Penerima Beasiswa Djarum Foundation', 'Hak Paten - SIPICOW APP', 'Finalis Gemastik 2019 - Telkom Bandung', 'Finalis Gemastik 2018 - ITS Surabaya'];
-        $data['award_name_eng']     = ['3rd Place in KTI Competition at IT Convert', 'Djarum Foundation Scholarship Recipient', 'Patent Rights - SIPICOW APP', 'Gemastik 2019 Finalist - Telkom Bandung', 'Gemastik 2018 Finalist - ITS Surabaya'];
-        $data['award_thumbnail']    = ['it_convert_fb.png', 'djarum_fb.png', 'paten_fb.png', 'gemastik_bandung_fb.jpg.png', 'gemastik_its_fb.png'];
-        $data['award_desc_in']      = ['Pemanfaatan e-KTP Sebagai Sistem Pendata Cerdas - Universitas Negeri Jember, 2020', 'PT. Djarum Indonesia, Malang 2019 s/d 2020', 'Sistem Pendeteksi dan Penanganan Dini Pada Penyakit Sapi (SIPICOW), 2019', 'Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi & Komunikasi XII, 2019', 'Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi & Komunikasi XI, 2018'];
-        $data['award_desc_eng']     = ['Utilization of e-KTP as a Smart Data Collection System - Jember University, 2020', 'PT. Djarum Indonesia, Malang 2019 to 2020', 'Early Detection and Handling System in Cattle Disease (SIPICOW), 2019', 'National Student Performance for Information &Communication Technology XII, 2019', 'National Student Performance for Information &Communication Technology XI, 2018'];
+        $data['award_name_in']      = [
+            'Juara 3 Lomba KTI di IT Convert',
+            'Penerima Beasiswa Djarum Foundation',
+            'Hak Paten - SIPICOW APP',
+            'Finalis Gemastik 2019 - Telkom Bandung',
+            'Finalis Gemastik 2018 - ITS Surabaya'
+        ];
+        $data['award_name_eng']     = [
+            '3rd Place in KTI Competition at IT Convert',
+            'Djarum Foundation Scholarship Recipient',
+            'Patent Rights - SIPICOW APP',
+            'Gemastik 2019 Finalist - Telkom Bandung',
+            'Gemastik 2018 Finalist - ITS Surabaya'
+        ];
+        $data['award_thumbnail']    = [
+            'it_convert_fb.png',
+            'djarum_fb.png',
+            'paten_fb.png',
+            'gemastik_bandung_fb.png',
+            'gemastik_its_fb.png'
+        ];
+        $data['award_thumbnail_mobile']    = [
+            'it_convert.png',
+            'djarum.png',
+            'paten.png',
+            'gemastik_bandung.png',
+            'gemastik_its.png',
+        ];
+        $data['award_desc_in']      = [
+            'Pemanfaatan e-KTP Sebagai Sistem Pendata Cerdas - Universitas Negeri Jember, 2020',
+            'PT. Djarum Indonesia, Malang 2019 s/d 2020',
+            'Sistem Pendeteksi dan Penanganan Dini Pada Penyakit Sapi (SIPICOW), 2019',
+            'Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi & Komunikasi XII, 2019',
+            'Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi & Komunikasi XI, 2018'
+        ];
+        $data['award_desc_eng']     = [
+            'Utilization of e-KTP as a Smart Data Collection System - Jember University, 2020',
+            'PT. Djarum Indonesia, Malang 2019 to 2020',
+            'Early Detection and Handling System in Cattle Disease (SIPICOW), 2019',
+            'National Student Performance for Information &Communication Technology XII, 2019',
+            'National Student Performance for Information &Communication Technology XI, 2018'
+        ];
         // END SECTION 5
         return view('index', compact('page', 'data'));
     }

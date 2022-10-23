@@ -4,23 +4,26 @@
             <h3 id="awrad_title">Achievements & Awards</h3>
             <hr style="width: 100px" size="5" class="my-5">
             <div class="row">
-                <div class="col-12 col-md-3 col-lg-3"></div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-3 col-lg-2 col-xxl-1"></div>
+                <div class="col-12 col-md-6 col-lg-8 col-xxl-10">
                     <div id="carCap" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             @foreach (range(0,count($data['award_name_in'])-1) as $index)
                                 <button type="button" data-bs-target="#carCap" data-bs-slide-to="{{ $index }}" aria-label="Slide {{ $index+1 }}" class="{{ $index == 0 ? 'active' : '' }}" aria-current="{{ $index == 0 ? 'true' : '' }}"></button>
                             @endforeach
                         </div>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" id="carousel">
                             @foreach ($data['award_name_eng'] as $index => $value)
-                                <div class="carousel-item {{ $index == 0 ? 'active' : '' }}"
-                                    {{-- data-bs-interval="2000" --}}
-                                    >
-                                    <img src="{{ asset('img/award/').'/'.$data['award_thumbnail'][$index] }}" class="d-block w-100 img-carousel" alt="{{ $data['award_thumbnail'][$index] }}">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="bg-warning p-2 text-dark w-auto">{{ $value }}</h5>
-                                        <p class="text-white">{{ $data['award_desc_eng'][$index] }}</p>
+                                <div class="carousel-item px-2 {{ $index == 0 ? 'active' : '' }}">
+                                    <div class="img-carousel d-block d-md-none">
+                                        <img src="{{ asset('img/award/').'/'.$data['award_thumbnail_mobile'][$index] }}" class="d-block d-md-none w-100" alt="{{ $data['award_thumbnail_mobile'][$index] }}">
+                                    </div>
+                                    <div class="img-carousel">
+                                        <img src="{{ asset('img/award/').'/'.$data['award_thumbnail'][$index] }}" class="d-none d-md-block w-100" alt="{{ $data['award_thumbnail'][$index] }}">
+                                        <div class="carousel-caption">
+                                            <h5 class="bg-warning p-2 text-dark w-auto">{{ $value }}</h5>
+                                            <p class="text-white">{{ $data['award_desc_eng'][$index] }}</p>
+                                        </div>
                                     </div>
                                 </div>
                             @endforeach
@@ -35,7 +38,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 col-lg-3"></div>
+                <div class="col-12 col-md-3 col-lg-2 col-xxl-1"></div>
             </div>
         </center>
     </div>

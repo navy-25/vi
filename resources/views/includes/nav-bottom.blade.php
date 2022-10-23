@@ -5,7 +5,7 @@
                 <a href="#section3" id="btn_education" onclick="menu_active('#btn_education')" class="m-auto menu-icon"><i data-feather="book"></i></a>
             </div>
             <div class="menu-btn d-flex">
-                <a href="" id="btn_award" onclick="menu_active('#btn_award')" class="m-auto menu-icon"><i data-feather="award"></i></a>
+                <a href="#section5" id="btn_award" onclick="menu_active('#btn_award')" class="m-auto menu-icon"><i data-feather="award"></i></a>
             </div>
             <div class="menu-btn d-flex">
                 <a href="#header" id="btn_home" onclick="menu_active('#btn_home')" class="m-auto menu-icon active"><i data-feather="home"></i></a>

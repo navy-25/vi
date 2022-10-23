@@ -12,9 +12,11 @@
     }
 
     function active_lang(type){
-        var job_icon = '{{ implode("|",$data['job_icon']) }}'.split('|')
-        var job_name = '{{ implode("|",$data['job_name']) }}'.split('|')
+        var job_icon        = '{{ implode("|",$data['job_icon']) }}'.split('|')
+        var job_name        = '{{ implode("|",$data['job_name']) }}'.split('|')
+        var award_thumbnail = '{{ implode("|",$data['award_thumbnail']) }}'.split('|')
         $('#id_work_experience').html('')
+        $('#carousel').html('')
         if(type == 'id'){
             $('#lang_id').addClass('btn-active')
             $('#lang_en').removeClass('btn-active')
@@ -24,6 +26,27 @@
             $('#contact').text('narahubung')
             $('#man').text('L')
             $('#experience_title').text('Pengalaman Kerja')
+
+            var award_name_in    = '{{ implode("|",$data['award_name_in']) }}'.split('|')
+            var award_desc_in    = '{{ implode("|",$data['award_desc_in']) }}'.split('|')
+            var isActive = ''
+            Object.entries(award_name_in).forEach(([key, value]) => {
+                if(key == 0){
+                    isActive = 'active'
+                }else{
+                    isActive = ''
+                }
+                var crl_src = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                $('#carousel').append(`
+                    <div class="carousel-item `+isActive+`">
+                        <img src="`+crl_src+`" class="d-block w-100 img-carousel" alt="`+award_thumbnail[key]+`">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
+                            <p class="text-white">`+award_desc_in[key]+`</p>
+                        </div>
+                    </div>
+                `)
+            });
 
             var job_position_eng    = '{{ implode("|",$data['job_position_eng']) }}'.split('|')
             var job_years_eng       = '{{ implode("|",$data['job_years_eng']) }}'.split('|')
@@ -104,6 +127,27 @@
             $('#contact').text("contact")
             $('#man').text('M')
             $('#experience_title').text('Work Experiences')
+
+            var award_name_eng    = '{{ implode("|",$data['award_name_eng']) }}'.split('|')
+            var award_desc_eng    = '{{ implode("|",$data['award_desc_eng']) }}'.split('|')
+            var isActive = ''
+            Object.entries(award_name_eng).forEach(([key, value]) => {
+                if(key == 0){
+                    isActive = 'active'
+                }else{
+                    isActive = ''
+                }
+                var crl_src = '{{ asset('img/award/').'/' }}'+award_thumbnail[key]
+                $('#carousel').append(`
+                    <div class="carousel-item `+isActive+`">
+                        <img src="`+crl_src+`" class="d-block w-100 img-carousel" alt="`+award_thumbnail[key]+`">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-warning p-2 text-dark w-auto">`+value+`</h5>
+                            <p class="text-white">`+award_desc_eng[key]+`</p>
+                        </div>
+                    </div>
+                `)
+            });
 
             var job_position_in    = '{{ implode("|",$data['job_position_in']) }}'.split('|')
             var job_years_in       = '{{ implode("|",$data['job_years_in']) }}'.split('|')

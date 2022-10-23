@@ -58,7 +58,10 @@
 
     #section5{
         width: 100%;
-        height: auto;
+        height: 100vh;
+        background-image: url({{ asset('img/award/bg_image.png') }}) !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
     }
 
     #coma2{
@@ -121,6 +124,12 @@
             height: auto;
         }
 
+        #section5{
+            height: 94vh;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
         /* NAV BOTTOM */
         .nav-bottom{
             width: 100% !important;
@@ -171,17 +180,53 @@
             padding-bottom: 8vh !important;
         }
 
-        /* #carCap{
-            display: none;
-        } */
+        .img-carousel{
+            aspect-ratio: 4/2 !important;
+        }
+
+        .carousel-caption{
+            padding-top:10px !important;
+            vertical-align: top !important;
+            bottom: auto !important;
+            left: 2% !important;
+            right: 2% !important;
+        }
+        .carousel-caption p{
+            color: rgb(51, 51, 51) !important;
+        }
+        .carousel-caption h5{
+            background: #ffc107 !important;
+            padding: 10px !important;
+            font-weight: bold !important;
+        }
+
+        .carousel-control-next, .carousel-control-prev,
+        .carousel-indicators{
+            display: none !important;
+        }
+
+        .img-carousel img{
+            height: auto !important;
+        }
+
+        #awrad_title{
+            width: 60vw !important;
+        }
     }
     .carousel-item{
         transition: all 1s ease-out;
     }
+    .carousel-caption{
+        bottom: 20px;
+    }
 
     .img-carousel{
         width: 100% !important;
-        aspect-ratio: 4/3 !important;
+        aspect-ratio: 4/3;
         background-size:contain !important;
+    }
+
+    .img-carousel img{
+        height: 100%;
     }
 </style>
