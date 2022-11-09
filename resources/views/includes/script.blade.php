@@ -55,11 +55,11 @@
                 `)
             });
 
-            var job_position_eng    = '{{ implode("|",$data['job_position_eng']) }}'.split('|')
-            var job_years_eng       = '{{ implode("|",$data['job_years_eng']) }}'.split('|')
-            var job_type_eng        = '{{ implode("|",$data['job_years_eng']) }}'.split('|')
-            var job_category_eng    = '{{ implode("|",$data['job_category_eng']) }}'.split('|')
-            var job_desc_eng        = JSON.parse('{{ json_encode($data['job_desc_eng']) }}'.replaceAll('&quot;','"'))
+            var job_position_in    = '{{ implode("|",$data['job_position_in']) }}'.split('|')
+            var job_years_in       = '{{ implode("|",$data['job_years_in']) }}'.split('|')
+            var job_type_in        = '{{ implode("|",$data['job_years_in']) }}'.split('|')
+            var job_category_in    = '{{ implode("|",$data['job_category_in']) }}'.split('|')
+            var job_desc_in        = JSON.parse('{{ json_encode($data['job_desc_in']) }}'.replaceAll('&quot;','"'))
             Object.entries(job_icon).forEach(([key, value]) => {
                 var image = "{{ asset('img/') }}"+'/'+value
                 $('#id_work_experience').append(`
@@ -67,21 +67,21 @@
                         <img src="`+image+`" class="w-100" alt="`+value+`">
                     </div>
                     <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
-                        <h4 class="my-0">`+job_position_eng[key]+`</h4>
+                        <h4 class="my-0">`+job_position_in[key]+`</h4>
                         <small>`+job_name[key]+`</small> <br> <br>
                         <div class="d-inline-block">
-                            <button class="btn-rounded darken me-2 mb-2">`+job_years_eng[key]+`</button>
-                            <button class="btn-rounded darken me-2 mb-2">`+job_type_eng[key]+`</button>
-                            <button class="btn-rounded darken me-2 mb-2">`+job_category_eng[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_years_in[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_type_in[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_category_in[key]+`</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
                     <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
-                        <ul id="detail_eng_`+key+`"></ul>
+                        <ul id="detail_in_`+key+`"></ul>
                     </div>
                 `)
-                Object.entries(job_desc_eng[key]).forEach(([key_2, value_2]) => {
-                    $('#detail_eng_'+key).append(`
+                Object.entries(job_desc_in[key]).forEach(([key_2, value_2]) => {
+                    $('#detail_in_'+key).append(`
                         <li>`+value_2+`</li>
                     `)
                 })
@@ -162,11 +162,11 @@
                 `)
             });
 
-            var job_position_in    = '{{ implode("|",$data['job_position_in']) }}'.split('|')
-            var job_years_in       = '{{ implode("|",$data['job_years_in']) }}'.split('|')
-            var job_type_in        = '{{ implode("|",$data['job_years_in']) }}'.split('|')
-            var job_category_in    = '{{ implode("|",$data['job_category_in']) }}'.split('|')
-            var job_desc_in        = JSON.parse('{{ json_encode($data['job_desc_in']) }}'.replaceAll('&quot;','"'))
+            var job_position_eng    = '{{ implode("|",$data['job_position_eng']) }}'.split('|')
+            var job_years_eng       = '{{ implode("|",$data['job_years_eng']) }}'.split('|')
+            var job_type_eng        = '{{ implode("|",$data['job_years_eng']) }}'.split('|')
+            var job_category_eng    = '{{ implode("|",$data['job_category_eng']) }}'.split('|')
+            var job_desc_eng        = JSON.parse('{{ json_encode($data['job_desc_eng']) }}'.replaceAll('&quot;','"'))
             Object.entries(job_icon).forEach(([key, value]) => {
                 var image = "{{ asset('img/') }}"+'/'+value
                 $('#id_work_experience').append(`
@@ -174,21 +174,21 @@
                         <img src="`+image+`" class="w-100" alt="`+value+`">
                     </div>
                     <div class="col-9 col-md-4 col-lg-4 text-start mb-3">
-                        <h4 class="my-0">`+job_position_in[key]+`</h4>
+                        <h4 class="my-0">`+job_position_eng[key]+`</h4>
                         <small>`+job_name[key]+`</small> <br> <br>
                         <div class="d-inline-block">
-                            <button class="btn-rounded darken me-2 mb-2">`+job_years_in[key]+`</button>
-                            <button class="btn-rounded darken me-2 mb-2">`+job_type_in[key]+`</button>
-                            <button class="btn-rounded darken me-2 mb-2">`+job_category_in[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_years_eng[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_type_eng[key]+`</button>
+                            <button class="btn-rounded darken me-2 mb-2">`+job_category_eng[key]+`</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-0 col-lg-0 d-block d-md-none d-lg-none"></div>
                     <div class="col-10 col-md-5 col-lg-6 text-start mb-3">
-                        <ul id="detail_in_`+key+`"></ul>
+                        <ul id="detail_eng_`+key+`"></ul>
                     </div>
                 `)
-                Object.entries(job_desc_in[key]).forEach(([key_2, value_2]) => {
-                    $('#detail_in_'+key).append(`
+                Object.entries(job_desc_eng[key]).forEach(([key_2, value_2]) => {
+                    $('#detail_eng_'+key).append(`
                         <li>`+value_2+`</li>
                     `)
                 })
