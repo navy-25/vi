@@ -43,15 +43,17 @@ class WebsiteController extends Controller
         // SECTION 4
         $data['job_icon']           = ['indoai-logo.png', 'headway-logo.png', 'vidisen-logo.png', 'indoai-logo.png', 'grab-logo.png',];
         $data['job_name']           = ['PT. Teknologi Artifisial Indonesia', 'PT. Heksa Adhitek Wayatama', 'ViDisen - Jasa Desain Grafis', 'PT. Teknologi Artifisial Indonesia', 'PT. Grab Indonesia',];
-        $data['job_position_in']    = ['Tim Kreatif/Content Creator', 'Pengembang Web Fullstack', 'Desainer Grafis & Owner', 'Mentor - Pemrograman Python Dasar', 'Driver Grab Bike',];
+        $data['job_position_in']    = ['Creative & Full-Stack Developer', 'Pengembang Web Fullstack', 'Desainer Grafis & Owner', 'Mentor - Pemrograman Python Dasar', 'Driver Grab Bike',];
         $data['job_years_in']       = ['Jan 2022 - Sekarang', 'Agu 2021 - Sekarang', 'Jan 2019 - Sekarang', 'Jan 2021 - Mei 2021', 'Apr 2018 - Okt 2020',];
-        $data['job_type_in']        = ['Paruh Waktu', 'Penuh Waktu', 'Pekerja Lepas', 'Paruh Waktu', 'Paruh Waktu',];
+        $data['job_type_in']        = ['Kontrak', 'Penuh Waktu', 'Pekerja Lepas', 'Paruh Waktu', 'Paruh Waktu',];
         $data['job_category_in']    = ['Layanan', 'Layanan', 'Layanan', 'Mentoring', 'Layanan',];
         $data['job_desc_in']        = [
             [
                 'Merencanakan konten sosial media (Content Planning)',
-                'Penulisan Konten Marketing & Sosial Media (Copywriting)',
+                'Penulisan konten marketing & sosial media (Copywriting)',
                 'Mengerjakan desain untuk konten sosial media menggunakan Corel Draw, Photoshop, ataupun Adobe Ilustrator',
+                'Desain tampilan antar muka',
+                'Membangun Website dengan HTML, CSS, JS',
             ],
             [
                 'Bekerja sebagai Pengembang web secara penuh waktu',
@@ -80,15 +82,17 @@ class WebsiteController extends Controller
                 'Mengutamakan Keselamatan dan ketepatan waktu',
             ],
         ];
-        $data['job_position_eng']   = ['Creative Team/Content Creator', 'Fullstack Web Developer', 'Graphic Designer & Owner', 'Mentor - Basic Python Programming', 'Driver Grab Bike',];
+        $data['job_position_eng']   = ['Creative & Full-Stack Developer', 'Fullstack Web Developer', 'Graphic Designer & Owner', 'Mentor - Basic Python Programming', 'Driver Grab Bike',];
         $data['job_years_eng']      = ['Jan 2022 - Now', 'Aug 2021 - Now', 'Jan 2019 - Now', 'Jan 2021 - May 2021', 'Apr 2018 - Oct 2020',];
-        $data['job_type_eng']       = ['Part Time', 'Full Time', 'Freelance', 'Part Time', 'Part Time',];
+        $data['job_type_eng']       = ['Contract', 'Full Time', 'Freelance', 'Part Time', 'Part Time',];
         $data['job_category_eng']   = ['Service', 'Service', 'Service', 'Mentoring', 'Service',];
         $data['job_desc_eng']       = [
             [
                 'Planning social media content (Content Planning)',
                 'Content Writing Marketing & Social Media (Copywriting)',
                 'Work on designs for social media content using Corel Draw, Photoshop, or Adobe Illustrator',
+                'UI Design',
+                'Building a Website with HTML, CSS, JS',
             ],
             [
                 'Work as a web Developer on a full-time basis',

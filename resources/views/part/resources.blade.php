@@ -1,10 +1,10 @@
-<div id="section5" class="w-100 d-flex bg-light p-5 mx-0">
+<div id="section7" class="w-100 d-flex bg-light p-5 mx-0">
     <div class="m-auto container px-md-5 px-lg-5">
         <center>
-            <h3 id="awrad_title">Achievements & Awards</h3>
+            <h3 id="awrad_title">My Resources & Directory</h3>
             <hr style="width: 100px" size="5" class="my-5">
             <div class="row">
-                <div class="col-12 col-md-3 col-lg-3 col-xxl-3"></div>
+                {{-- <div class="col-12 col-md-3 col-lg-2 col-xxl-3"></div>
                 <div class="col-12 col-md-6 col-lg-6 col-xxl-6">
                     <div id="carCap" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -38,7 +38,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xxl-3"></div>
+                <div class="col-12 col-md-3 col-lg-2 col-xxl-3"></div> --}}
             </div>
         </center>
     </div>
