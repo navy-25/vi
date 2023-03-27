@@ -85,8 +85,13 @@
         height: 100vh;
     }
 
+    #header-resources{
+        height: 50vh;
+    }
+
     #footer {
         width: 100%;
+        align-items: center !important;
     }
 
     #coma2 {
@@ -142,8 +147,16 @@
     }
 
     @media only screen and (max-width: 600px) {
+        #header-resources{
+            height: 45vh;
+        }
         #header {
             background-position: center bottom;
+        }
+
+        #footer {
+            height: 20vh;
+            align-items: start !important;
         }
 
         #section2 {
@@ -215,7 +228,7 @@
 
         /* END NAV BOTTOM */
         body {
-            padding-bottom: 8vh !important;
+            /* padding-bottom: 8vh !important; */
         }
 
         .img-carousel {

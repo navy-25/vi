@@ -1,3 +1,10 @@
+@php
+    $page['author']             = "Muhammad Nafi";
+    $page['keywords']           = "viproject, web developer, graphic designer, Muhammad Nafi Maula hakim, Nafi, vidisen, curiculum vitae,cv";
+    $page['site_ver']           = "z2qT-oHcq7pVEXxmNTAbB19CSGlj4DLNk5dnrohA0Fg";
+    $page['description']        = "Hello, my name is Muhammad Nafi' Maula Hakim< but you can call me nafi. Born in Jombang, on January 25, 1999. Now I live in the city of Surabaya, East Java. I am a hardworking person and willing to learn new things. Thank you for visiting my web site. Have a nice day. By the way, I am very interested in the topics of graphic design, programmers, data analysts, and creative content.";
+    $page['favicon']            = asset('img/my-photo.png');
+@endphp
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="google-site-verification" content="{{ $page['site_ver'] }}">

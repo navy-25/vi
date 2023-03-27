@@ -1,8 +1,20 @@
 <div class="container-fluid m-0 p-0 bg-dark " id="header">
-    <nav class="container px-3 px-md-5 px-lg-5 py-2 pt-md-4 pt-lg-4">
+    <nav class="container px-3 px-md-5 px-lg-5 py-4 pt-md-4 pt-lg-5">
         <div class="row text-white">
-            <div class="col-12 d-flex">
-                <div class="ms-auto my-auto">
+            <div class="col-12 d-flex justify-content-md-between justify-content-center align-items-center">
+                <div class="d-none d-md-flex align-items-center">
+                    <a href="#" class="me-5 text-white mb-0 text-decoration-none">Home</a>
+                    <a href="{{ route('directory.index') }}" class="me-5 text-white mb-0 text-decoration-none d-flex align-items-center">
+                        <span class="me-2">
+                            My Projects
+                        </span>
+                        <small class="badge bg-warning text-dark p-1 ps-2 pe-3 d-flex align-items-center" style="border-radius: 20px">
+                            <i data-feather="alert-circle" class="me-2" width="17"></i>
+                            <span>Check this</span>
+                        </small>
+                    </a>
+                </div>
+                <div>
                     <button id="lang_en" class="btn-circle lighten scale scale-2 btn-active me-2" onclick="active_lang('en')">en</button>
                     <button id="lang_id" class="btn-circle lighten scale scale-2" onclick="active_lang('id')">id</button>
                 </div>
