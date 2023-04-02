@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 d-flex justify-content-md-end justify-content-start">
+                <div class="col-12 col-md-3 mt-4 mt-md-0 d-flex justify-content-md-end justify-content-start">
                     <a href="#" id="lang_en" class="btn btn-outline-dark d-flex align-items-center justify-content-center text-decoration-none me-2"
                         style="width: 40px;height: 40px;border-radius:100%"
                     >
