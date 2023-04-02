@@ -36,17 +36,17 @@
                     <br>
                     <p class="mb-2">Choose Category</p>
                     <div class="row">
-                        <div class="col-6 col-md-auto mb-3">
+                        <div class="col-12 col-md-auto mb-3">
                             <a class="px-3 py-2 rounded-3 text-warning scale scale-1 text-decoration-none w-100" href="#tag-logo" id="btn-design" onclick="choose('design')">
                                 <span>Logo Design</span>
                             </a>
                         </div>
-                        <div class="col-6 col-md-auto mb-3">
+                        <div class="col-12 col-md-auto mb-3">
                             <a class="px-3 py-2 rounded-3 text-dark scale scale-1 text-decoration-none w-100" href="#tag-web" id="btn-web" onclick="choose('web')">
                                 <span>Web Dev</span>
                             </a>
                         </div>
-                        <div class="col-6 col-md-auto mb-3">
+                        <div class="col-12 col-md-auto mb-3">
                             <a class="px-3 py-2 rounded-3 text-dark scale scale-1 text-decoration-none w-100" href="#tag-ui" id="btn-ui" onclick="choose('ui')">
                                 <span>UI Design</span>
                             </a>
