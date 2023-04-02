@@ -148,7 +148,7 @@
 
     @media only screen and (max-width: 600px) {
         #header-resources{
-            height: 65vh;
+            height: 55vh;
         }
         #header {
             background-position: center bottom;
