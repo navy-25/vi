@@ -136,7 +136,7 @@
             if(def == 0){
                 setTimeout(() => {
                     var element = document.getElementById(id);
-                    var headerOffset = 90;
+                    var headerOffset = 70;
                     var elementPosition = element.getBoundingClientRect().top;
                     var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
