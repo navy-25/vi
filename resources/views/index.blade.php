@@ -2,23 +2,23 @@
 
 @section('content')
 {{-- SECTION 1 --}}
-@include('part.header')
+@include('part.home.header')
 {{-- END SECTION 1 --}}
 
 {{-- SECTION 2 --}}
-@include('part.aboutme')
+@include('part.home.aboutme')
 {{-- END SECTION 2 --}}
 
 {{-- SECTION 3 --}}
-@include('part.education_history')
+@include('part.home.education_history')
 {{-- END SECTION 3 --}}
 
 {{-- SECTION 4 --}}
-@include('part.work')
+@include('part.home.work')
 {{-- END SECTION 4 --}}
 
 {{-- SECTION 5 --}}
-@include('part.award')
+@include('part.home.award')
 {{-- END SECTION 5 --}}
 @endsection
 

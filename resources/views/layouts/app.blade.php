@@ -23,12 +23,11 @@
     @yield('content')
 
     {{-- SECTION FOOTER --}}
-    @include('part.footer')
+    @include('includes.footer')
     {{-- END SECTION FOOTER --}}
 
     {{-- SCRIPT --}}
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="{{ asset('app-assets-b5/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
     @include('includes.script')
 

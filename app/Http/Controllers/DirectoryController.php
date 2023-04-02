@@ -10,6 +10,6 @@ class DirectoryController extends Controller
     {
         $page['title'] = "Project & Portofolio";
         // END PAGE
-        return view('part.resourcesDetail', compact('page'));
+        return view('resources', compact('page'));
     }
 }
