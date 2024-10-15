@@ -3,7 +3,7 @@
     $page['keywords']           = "amanahin project, web developer, graphic designer, muhammad nafi maula hakim, nafi, curiculum vitae, cv, navi, ui, designer";
     $page['site_ver']           = "z2qT-oHcq7pVEXxmNTAbB19CSGlj4DLNk5dnrohA0Fg";
     $page['description']        = "Hello.. my name is Muhammad Nafi' Maula Hakim, but you can call me nafi. As someone who has experience in web development, user interface (UI) design for 4 years. combines technical expertise and creativity to create engaging and functional digital experiences. With in-depth knowledge in web technology and design aesthetics, Able to lead projects that are focused on effective solutions and meeting client needs. From initial concept to final implementation, I am committed to delivering exceptional results and strengthening brand image through innovative and minimalist design.";
-    $page['favicon']            = asset('assets/profile.png');
+    $page['favicon']            = asset('assets/profile.webp');
 @endphp
 <title>{{ $page['title'] }}</title>
 <link rel="icon" href="{{ $page['favicon'] }}" type="image/icon type">

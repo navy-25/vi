@@ -304,7 +304,7 @@
     </div>
     <div class="bg-dark w-100"
         style="
-            background-image: url('{{ asset('assets/filter-grid.png') }}');
+            background-image: url('{{ asset('assets/filter-grid.webp') }}');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -312,14 +312,14 @@
         >
         <div class="h-100"
             style="
-                background-image: url('{{ asset('assets/blur-bg-blue.png') }}');
+                background-image: url('{{ asset('assets/blur-bg-blue.webp') }}');
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
             "
             >
             <div class="position-absolute d-none d-md-block header-icon">
-                <img src="{{ asset('assets/icon.png') }}" class="w-100" alt="icon">
+                <img src="{{ asset('assets/icon.webp') }}" class="w-100" alt="icon">
             </div>
             <div class="container h-100 px-0">
                 <div class="mb-5 d-md-flex d-none justify-content-between align-items-center" style="height: 80px;">
@@ -340,7 +340,7 @@
                         <small class="text-white opacity-75 mb-0">Contact</small>
                     </a>
                     <div onclick="document.getElementById('tag-about-me').click();" style="z-index: 1000 !important" class="pointer d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('assets/profile.png') }}" style="width: 40px;aspect-ratio: 1/1" class="rounded-3">
+                        <img src="{{ asset('assets/profile.webp') }}" style="width: 40px;aspect-ratio: 1/1" class="rounded-3">
                         <a href="#about-me" class="d-none" id="tag-about-me"></a>
                     </div>
                 </div>
@@ -350,7 +350,7 @@
                         <p class="mb-0 text-white">Curriculum Vitae</p>
                     </div>
                     <div onclick="document.getElementById('tag-about-me').click();" style="z-index: 1000 !important" class="pointer d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('assets/profile.png') }}" style="width: 40px;aspect-ratio: 1/1" class="rounded-3">
+                        <img src="{{ asset('assets/profile.webp') }}" style="width: 40px;aspect-ratio: 1/1" class="rounded-3">
                         <a href="#about-me" class="d-none" id="tag-about-me"></a>
                     </div>
                 </div>
@@ -359,9 +359,9 @@
                         <p class="text-primary mb-2 lh-1">Here I am ...</p>
                         <h1 class="text-white fw-bold lh-1">Muhammad Nafi <br> Maula Hakim</h1>
                         <small class="text-white opacity-50 fw-semibold">Web Developer & UI Designer</small>
-                        <img src="{{ asset('assets/card-header.png') }}" alt="card-header">
+                        <img src="{{ asset('assets/card-header.webp') }}" alt="card-header">
                     </div>
-                    <img src="{{ asset('assets/card-header-mobile.png') }}" class="d-md-none w-100" alt="card-header">
+                    <img src="{{ asset('assets/card-header-mobile.webp') }}" class="d-md-none w-100" alt="card-header">
                 </div>
             </div>
         </div>
@@ -371,7 +371,7 @@
     {{-- ABOUT ME --}}
     <div class="w-100"
         style="
-            background-image: url('{{ asset('assets/bg-monocrome.png') }}');
+            background-image: url('{{ asset('assets/bg-monocrome.webp') }}');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -383,7 +383,7 @@
                 As someone who has experience in web development, user interface (UI) design for 4 years. combines technical expertise and creativity to create engaging and functional digital experiences. With in-depth knowledge in web technology and design aesthetics, Able to lead projects that are focused on effective solutions and meeting client needs. From initial concept to final implementation, I am committed to delivering exceptional results and strengthening brand image through innovative and minimalist design.
             </p>
             <div class="d-md-flex d-block">
-                <img src="{{ asset('assets/profile.png') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-full mb-3 mb-md-0 d-none d-md-block">
+                <img src="{{ asset('assets/profile.webp') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-full mb-3 mb-md-0 d-none d-md-block">
                 <div class="ms-md-auto mb-3 mb-md-0  me-3 d-flex align-items-center">
                     <div class="bg-primary rounded-full d-flex align-items-center justify-content-center me-3" style="width: 50px;aspect-ratio: 1/1;">
                         <i class="text-white" data-feather="maximize-2" width="20" height="20"></i>
@@ -495,7 +495,7 @@
                         <div class="col-12 col-md-6 mb-2">
                             <div class="card border-0 bg-soft-gray h-100"
                             style="
-                                background-image: url('{{ asset('assets/umm.png') }}');
+                                background-image: url('{{ asset('assets/umm.webp') }}');
                                 background-position: center right;
                                 background-size: cover;
                                 background-repeat: no-repeat;
@@ -555,7 +555,7 @@
                         <div class="col-12 col-md-6 mb-2">
                             <div class="card border-0 bg-soft-gray h-100"
                                 style="
-                                    background-image: url('{{ asset('assets/smkm1.png') }}');
+                                    background-image: url('{{ asset('assets/smkm1.webp') }}');
                                     background-position: center right;
                                     background-size: cover;
                                     background-repeat: no-repeat;
@@ -1237,7 +1237,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/djarum.jpg') }}');
+                                        background-image: url('{{ asset('assets/djarum.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1268,7 +1268,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/djarum.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/djarum.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1278,7 +1278,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/djarum-2.jpg') }}');
+                                        background-image: url('{{ asset('assets/djarum-2.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1309,7 +1309,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/djarum-2.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/djarum-2.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1319,7 +1319,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/itconvert.png') }}');
+                                        background-image: url('{{ asset('assets/itconvert.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1350,7 +1350,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/itconvert.png') }}" alt="it convert" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/itconvert.webp') }}" alt="it convert" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1360,7 +1360,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/hak-cipta.png') }}');
+                                        background-image: url('{{ asset('assets/hak-cipta.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1391,7 +1391,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/hak-cipta.png') }}" alt="hak-cipta" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/hak-cipta.webp') }}" alt="hak-cipta" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1401,7 +1401,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/gemastik12.jpg') }}');
+                                        background-image: url('{{ asset('assets/gemastik12.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1432,7 +1432,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/gemastik12.jpg') }}" alt="gemastik12" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/gemastik12.webp') }}" alt="gemastik12" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1442,7 +1442,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/gemastik11.jpg') }}');
+                                        background-image: url('{{ asset('assets/gemastik11.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1473,7 +1473,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/gemastik11.jpg') }}" alt="gemastik12" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/gemastik11.webp') }}" alt="gemastik12" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1494,7 +1494,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/abidzar.png') }}');
+                                        background-image: url('{{ asset('assets/abidzar.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1525,7 +1525,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/abidzar.png') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/abidzar.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1535,7 +1535,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/kogsi.jpg') }}');
+                                        background-image: url('{{ asset('assets/kogsi.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1566,7 +1566,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/kogsi.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/kogsi.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1576,7 +1576,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/ipm.jpg') }}');
+                                        background-image: url('{{ asset('assets/ipm.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1607,7 +1607,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/ipm.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/ipm.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1617,7 +1617,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/no-image.png') }}');
+                                        background-image: url('{{ asset('assets/no-image.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1646,7 +1646,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/bazaar.jpg') }}');
+                                        background-image: url('{{ asset('assets/bazaar.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1677,7 +1677,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/bazaar.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/bazaar.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1687,7 +1687,7 @@
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-0 border-0 bg-transparent">
                                     <div class="w-100 rounded-3 achivement__card d-flex align-items-center justify-content-center" style="
-                                        background-image: url('{{ asset('assets/alugada.jpg') }}');
+                                        background-image: url('{{ asset('assets/alugada.webp') }}');
                                         background-position: center;
                                         background-size: cover;
                                         background-repeat: no-repeat;
@@ -1718,7 +1718,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body rounded-3">
-                                            <img src="{{ asset('assets/alugada.jpg') }}" alt="djarum foundation" class="w-100 rounded-3">
+                                            <img src="{{ asset('assets/alugada.webp') }}" alt="djarum foundation" class="w-100 rounded-3">
                                         </div>
                                     </div>
                                 </div>
@@ -1961,7 +1961,7 @@
                                         </a>
                                     </div>
                                     <div class="col-12 col-md-5 my-auto">
-                                        <img src="{{ asset('assets/collaboration.png') }}" alt="collaboration" class="w-100">
+                                        <img src="{{ asset('assets/collaboration.webp') }}" alt="collaboration" class="w-100">
                                     </div>
                                 </div>
                             </div>
@@ -1975,7 +1975,7 @@
 
     <footer class="bg-dark"
     style="
-        background-image: url('{{ asset('assets/bg-monocrome.png') }}');
+        background-image: url('{{ asset('assets/bg-monocrome.webp') }}');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1984,7 +1984,7 @@
         <div class="container text-white p-5">
             <div class="row">
                 <div class="col-12 col-md-5 mb-3">
-                    <img src="{{ asset('assets/profile.png') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-3 mb-4">
+                    <img src="{{ asset('assets/profile.webp') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-3 mb-4">
                     <h5 class="text-white">My Curriculum Vitae</h5>
                     <small class="text-white opacity-50">
                         Find brief information about my experience and skills here. <br class="d-none d-md-block"> I look forward to contributing to your project!
