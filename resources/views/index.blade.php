@@ -380,7 +380,7 @@
         <div class="container h-100 p-5" id="about-me">
             <h5 class="text-primary mb-3">About me</h5>
             <p class="text-white opacity-75 lh-md mb-5">
-                As someone who has experience in web development, user interface (UI) design for 4 years. combines technical expertise and creativity to create engaging and functional digital experiences. With in-depth knowledge in web technology and design aesthetics, Able to lead projects that are focused on effective solutions and meeting client needs. From initial concept to final implementation, I am committed to delivering exceptional results and strengthening brand image through innovative and minimalist design.
+                Dengan pengalaman lebih dari {{ date('Y') - 2018 }} tahun di web dan desain UI, saya suka menggabungkan kreativitas dan skill teknis untuk membuat pengalaman digital yang menarik, simpel, dan mudah digunakan. Dari ide sampai implementasi, saya berkomitmen menghadirkan hasil yang fungsional dan memperkuat identitas brand.
             </p>
             <div class="d-md-flex d-block">
                 <img src="{{ asset('assets/profile.webp') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-full mb-3 mb-md-0 d-none d-md-block">
@@ -461,11 +461,11 @@
                                 <i data-feather="folder" class="mb-1" width="16" height="16"></i>
                             </a>
                         </li> --}}
-                        <li class="list-group-item" target="#services">
+                        {{-- <li class="list-group-item" target="#services">
                             <a href="#services">
                                 <i data-feather="shopping-cart" class="mb-1" width="16" height="16"></i>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="list-group-item" target="#contact">
                             <a href="#contact">
                                 <i data-feather="message-circle" class="mb-1" width="16" height="16"></i>
@@ -489,7 +489,7 @@
                         Educations
                     </h5>
                     <p class="text-dark opacity-75 lh-md mb-5">
-                        My education was supported by a strong interest in technology and information. I have experience in taking courses and self-directed projects related to software development, data analysis, and digital art.
+                        Pendidikan saya didorong oleh rasa penasaran dan ketertarikan yang besar terhadap teknologi dan informasi. Selama ini, saya telah menempuh berbagai kursus dan mengerjakan proyek-proyek mandiri yang berkaitan dengan pengembangan perangkat lunak, analisis data, dan seni digital. Saya menikmati proses belajar sambil mencoba hal-hal baru, dan selalu bersemangat untuk mengembangkan kemampuan saya di bidang ini.
                     </p>
                     <div class="row align-items-stretch">
                         <div class="col-12 col-md-6 mb-2">
@@ -521,7 +521,7 @@
                                         <div class="col-12 pt-2">
                                             <ul class="text-dark opacity-75 fw-normal ps-3">
                                                 <li>
-                                                    <small>Informatics Engineer (IPK 3.7)</small>
+                                                    <small>Informatics Engineer (GPA 3.7)</small>
                                                 </li>
                                                 <li>
                                                     <small>Malang, East Java</small>
@@ -608,7 +608,7 @@
                         Work Experiences
                     </h5>
                     <p class="text-dark opacity-75 lh-md mb-5">
-                        With a strong interest in information technology and graphic design, I'm always exploring how to combine the two to create creative solutions. I am ready to bring my enthusiasm and skills into a dynamic work environment in both of these areas.
+                        Bagi saya, teknologi dan desain selalu lebih menarik ketika bisa membuat pengalaman pengguna menjadi lebih mudah dan menyenangkan. Saya senang mencari cara untuk menyatukan keduanya demi hasil yang efektif dan kreatif.
                     </p>
                     <div class="row align-items-stretch">
                         <div class="col-12 col-md-5 mb-4">
@@ -629,7 +629,7 @@
                                         <div class="col-12 mt-3" style="padding-top: 5px">
                                             <div class="d-flex align-items-center justify-content-start">
                                                 <i class="me-2 text-dark opacity-50" data-feather="calendar" width="14" height="14"></i>
-                                                <small class="text-dark opacity-50">Until now</small>
+                                                <small class="text-dark opacity-50">Juni 2023 - Sekarang</small>
                                             </div>
                                         </div>
                                         <div class="col-12" style="padding-top: 5px">
@@ -652,40 +652,40 @@
                                             <small class="mb-1 text-secondary opacity-50">Activitys:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Create a learning dashboard (LMS) development plan and internal website</small>
+                                                    <small>Merencanakan dan mengelola pengembangan platform dan website internal</small>
                                                 </li>
                                                 <li>
-                                                    <small>Development and maintenance of internal IT resources (Servers, etc)</small>
+                                                    <small>Mengembangkan dan memelihara sumber daya IT internal (server, dll.)</small>
                                                 </li>
                                                 <li>
-                                                    <small>Integrate between websites/services via Rest-API</small>
+                                                    <small>Mengintegrasikan berbagai website/layanan melalui Rest-API</small>
                                                 </li>
                                                 <li>
-                                                    <small>Database management</small>
+                                                    <small>Mengelola database dan sumber data lainnya</small>
                                                 </li>
                                                 <li>
-                                                    <small>Assist in planning and evaluation of the AI Engineer team using the SCRUM method</small>
+                                                    <small>Membantu perencanaan dan evaluasi tim AI Engineer menggunakan metode SCRUM</small>
                                                 </li>
                                                 <li>
-                                                    <small>Involved in external projects as a technical team lead</small>
+                                                    <small>Terlibat dalam proyek eksternal sebagai Technical Lead dalam program AI Consulting</small>
                                                 </li>
                                             </ul>
                                             <small class="mb-1 text-secondary opacity-50">Tools:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Python: Django, Flask, G. Collab</small>
+                                                    <small>Python: Django, Flask, G. Collab, FastAPI, dll</small>
                                                 </li>
                                                 <li>
-                                                    <small>Web: HTML, CSS, JS, Boostrap</small>
+                                                    <small>Web: HTML, CSS, JS, Boostrap, Tailwind, dll</small>
                                                 </li>
                                                 <li>
-                                                    <small>UI: Figma, Adobe Photoshop</small>
+                                                    <small>UI & Slide: Figma, Adobe Photoshop, Canva</small>
                                                 </li>
                                                 <li>
-                                                    <small>Kanban: Trello, Notion</small>
+                                                    <small>Kanban: Trello, Notion, JIRA</small>
                                                 </li>
                                                 <li>
-                                                    <small>Other: Xampp, Mysql, Google Drive, Discord</small>
+                                                    <small>Other: GCP, Huggingface, CI/CD, dll</small>
                                                 </li>
                                             </ul>
                                             <small class="mb-1 text-secondary opacity-50">Official Website:</small>
@@ -742,22 +742,22 @@
                                             <small class="mb-1 text-secondary opacity-50">Activitys:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Create a social media content plan</small>
+                                                    <small>Membuat rencana konten media sosial</small>
                                                 </li>
                                                 <li>
-                                                    <small>Research and creation of social media content</small>
+                                                    <small>Melakukan riset dan pembuatan konten untuk media sosial</small>
                                                 </li>
                                                 <li>
-                                                    <small>Create designs for agency needs (social media content, product thumbnails, pitch decks, etc.)</small>
+                                                    <small>Membuat desain sesuai kebutuhan agency (konten media sosial, thumbnail produk, pitch deck, dll)</small>
                                                 </li>
                                                 <li>
-                                                    <small>Create short videos for social media content (reels, stories)</small>
+                                                    <small>Membuat video pendek untuk konten media sosial (reels, stories)</small>
                                                 </li>
                                             </ul>
                                             <small class="mb-1 text-secondary opacity-50">Tools:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Desain: Corel Draw, Adobe Photoshop, Adobe Ilustrator, Canvas</small>
+                                                    <small>Desain: Corel Draw, Adobe Photoshop, Adobe Ilustrator, Canva</small>
                                                 </li>
                                                 <li>
                                                     <small>Video: Adobe Premier, Filmora, Canvas</small>
@@ -826,25 +826,25 @@
                                             <small class="mb-1 text-secondary opacity-50">Activitys:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Work as a web Developer on a full-time basis</small>
+                                                    <small>Bekerja sebagai Web Developer secara full-time</small>
                                                 </li>
                                                 <li>
-                                                    <small>Web application maintenance</small>
+                                                    <small>Melakukan pemeliharaan aplikasi web</small>
                                                 </li>
                                                 <li>
-                                                    <small>Developing a website with the Laravel framework</small>
+                                                    <small>Mengembangkan website menggunakan framework Laravel</small>
                                                 </li>
                                                 <li>
-                                                    <small>Learn various frameworks to help work in office projects</small>
+                                                    <small>Mempelajari berbagai framework untuk mendukung proyek kantor</small>
                                                 </li>
                                                 <li>
-                                                    <small>Work on and Manage enterprise applications</small>
+                                                    <small>Bekerja pada dan mengelola aplikasi enterprise</small>
                                                 </li>
                                                 <li>
-                                                    <small>Integrating the system with Bank Gateway, WA Gateway, etc</small>
+                                                    <small>Mengintegrasikan sistem dengan Bank Gateway, WA Gateway, dll.</small>
                                                 </li>
                                                 <li>
-                                                    <small>Building a Rest API</small>
+                                                    <small>Membangun Rest API</small>
                                                 </li>
                                             </ul>
                                             <small class="mb-1 text-secondary opacity-50">Tools:</small>
@@ -922,19 +922,19 @@
                                             <small class="mb-1 text-secondary opacity-50">Activitys:</small>
                                             <ul class="text-dark opacity-75 fw-normal ps-3 mb-3">
                                                 <li>
-                                                    <small>Conducting the teaching and learning process (mentoring) with predetermined classes/month</small>
+                                                    <small>Melaksanakan proses belajar mengajar (mentoring) sesuai jadwal kelas/bulan yang telah ditentukan</small>
                                                 </li>
                                                 <li>
-                                                    <small>Providing materials and training related to the python programming language</small>
+                                                    <small>Memberikan materi dan pelatihan terkait bahasa pemrograman Python</small>
                                                 </li>
                                                 <li>
-                                                    <small>Assignments every week</small>
+                                                    <small>Memberikan tugas setiap minggu</small>
                                                 </li>
                                                 <li>
-                                                    <small>Answering questions from the cashew (Students / people who take the online course)</small>
+                                                    <small>Menjawab pertanyaan dari peserta (siswa/orang yang mengikuti kursus online)</small>
                                                 </li>
                                                 <li>
-                                                    <small>Monitoring and evaluation</small>
+                                                    <small>Melakukan monitoring dan evaluasi</small>
                                                 </li>
                                             </ul>
                                             <small class="mb-1 text-secondary opacity-50">Tools:</small>
@@ -965,7 +965,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-5">
+                        {{-- <div class="col-12 col-md-5">
                             <div class="card border-0 bg-soft-gray h-100">
                                 <div class="card-header p-4 pb-2 border-0 bg-transparent">
                                     <div class="row">
@@ -1033,7 +1033,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="py-5 text-white" id="skills">
@@ -1042,7 +1042,7 @@
                         Skills
                     </h5>
                     <p class="text-dark opacity-75 lh-md mb-5">
-                        Good communication skills and efficient project management allow me to interact with various parties related to the project clearly and ensure that the project runs according to target. I am also skilled in website development, creating responsive and interactive websites, as well as in graphic design, designing attractive and cohesive graphic elements.
+                        Kemampuan komunikasi yang baik dan manajemen proyek yang efisien memungkinkan saya berinteraksi dengan berbagai pihak terkait proyek secara jelas serta memastikan proyek berjalan sesuai target. Saya juga terampil dalam pengembangan website, membuat situs yang responsif dan interaktif, serta dalam desain grafis, merancang elemen grafis yang menarik dan konsisten.
                     </p>
                     <div class="row mb-4">
                         <div class="col-12 col-md-2 mb-md-1 mb-3">
@@ -1108,6 +1108,9 @@
                                 Database Design
                             </div>
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                                Architecture Design
+                            </div>
+                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 Database Management
                             </div>
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
@@ -1154,6 +1157,9 @@
                                 Flask
                             </div>
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                                FastAPI
+                            </div>
+                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 Wordpress
                             </div>
                         </div>
@@ -1193,17 +1199,17 @@
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 Postman
                             </div>
-                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
-                                UMLet
-                            </div>
-                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                            {{-- <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                                UMLet/
+                            </div> --}}
+                            {{-- <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 Navicat
-                            </div>
-                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                            </div> --}}
+                            {{-- <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 OBS Studio
-                            </div>
+                            </div> --}}
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
-                                Ngrok
+                                Canva
                             </div>
                         </div>
                     </div>
@@ -1221,6 +1227,12 @@
                             <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
                                 Google Drive
                             </div>
+                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                                Hugging Face
+                            </div>
+                            <div class="btn bg-soft-dark-gray rounded-full px-4 m-1 badge__skills">
+                                Google Cloud Platform
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1230,7 +1242,7 @@
                         Achievements
                     </h5>
                     <p class="text-dark opacity-75 lh-md mb-5">
-                        The achievements I have attained in a particular field or context can encompass everything from awards received to significant contributions made to a team or organization. I am tenacious and always serious about achieving my goals, with full dedication and unwavering determination.
+                        Prestasi yang telah saya raih di berbagai bidang atau konteks bisa mencakup mulai dari penghargaan yang diterima hingga kontribusi signifikan bagi tim atau organisasi. Saya orang yang gigih dan selalu serius dalam mencapai tujuan, dengan dedikasi penuh serta tekad yang kuat.
                     </p>
                     <div class="row align-items-strech">
                         <div class="col-12 col-md-4 mb-4">
@@ -1254,7 +1266,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Beasiswa Djarum Foundation</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">The best team in the character building activity event at Cikole Bandung for 4 days</small>
+                                        <small class="mb-1 text-secondary opacity-50">Tim terbaik dalam kegiatan pembangunan karakter di Cikole Bandung selama 4 hari</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1295,7 +1307,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">PT. Djarum Indonesia</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">Scholarship provided by the Djarum Foundation for 1 year. Not only do you get coaching money, but you also get training and skill improvement</small>
+                                        <small class="mb-1 text-secondary opacity-50">Beasiswa diberikan oleh Djarum Foundation selama 1 tahun. Tidak hanya mendapatkan uang pembinaan, tetapi Anda juga mendapatkan pelatihan dan peningkatan keterampilan</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1336,7 +1348,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">IT Convert Universitas Negeri Jember</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">3rd place in a scientific writing competition at a national level competition with 2 team members. "Utilization of e-KTP as a Smart Data Collection System"</small>
+                                        <small class="mb-1 text-secondary opacity-50">Juara 3 dalam lomba penulisan ilmiah tingkat nasional dengan 2 anggota tim. "Pemanfaatan e-KTP sebagai Sistem Pengumpulan Data Pintar"</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1377,7 +1389,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Pangkalan Data Kekayaan Intelektual</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">Proof of registration and copyright for "Early detection and treatment system for cattle diseases"</small>
+                                        <small class="mb-1 text-secondary opacity-50">Bukti pendaftaran dan hak cipta untuk "Sistem deteksi dini dan pengobatan penyakit ternak"</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1418,7 +1430,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Gemastik XII - 2019</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">Create an information system that is able to carry out early diagnosis of cattle diseases for cattle breeders in Malang. "Sipicow - Early detection and treatment system for cattle diseases"</small>
+                                        <small class="mb-1 text-secondary opacity-50">Sistem informasi yang mampu melakukan diagnosis dini penyakit ternak bagi peternak sapi di Malang. "Sipicow - Sistem deteksi dan penanganan dini penyakit ternak"</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1459,7 +1471,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Gemastik XI - 2018</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">Designing a web server-based chatbot system for responsive and intelligent students in choosing courses. "Lecbot - Lective Bot Telegram"</small>
+                                        <small class="mb-1 text-secondary opacity-50">Mendesain sistem chatbot berbasis web server untuk membantu mahasiswa dalam memilih mata kuliah secara responsif dan cerdas. "Lecbot - Lective Bot Telegram"</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1487,7 +1499,7 @@
                         Organization & Volunteers
                     </h5>
                     <p class="text-dark opacity-75 lh-md mb-5">
-                        Enthusiastic and committed to helping improve the community and surrounding environment, full of confidence that by giving a little time, energy, and skills voluntarily, one can make a big difference in the lives of others and create a positive impact in society.
+                        Saya antusias dan berkomitmen untuk membantu meningkatkan kualitas komunitas dan lingkungan sekitar, dengan keyakinan bahwa dengan menyisihkan sedikit waktu, tenaga, dan kemampuan secara sukarela, kita bisa membuat perbedaan besar dalam kehidupan orang lain serta menciptakan dampak positif bagi masyarakat.
                     </p>
                     <div class="row align-items-strech">
                         <div class="col-12 col-md-4 mb-4">
@@ -1511,7 +1523,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Co-Founder</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">A community that operates in the field of humanity and community empowerment</small>
+                                        <small class="mb-1 text-secondary opacity-50">Sebuah komunitas yang bergerak di bidang kemanusiaan dan pemberdayaan masyarakat</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1552,7 +1564,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Coordinator</small>
                                     <div class="mt-3">
-                                        <small class="mb-1 text-secondary opacity-50">Become a forum for student friends who like to be competent</small>
+                                        <small class="mb-1 text-secondary opacity-50">Menjadi wadah bagi teman-teman mahasiswa yang ingin mengembangkan kompetensi</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1593,7 +1605,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Community, Institution, Membership, etc</small>
                                     <div class="my-3">
-                                        <small class="mb-1 text-secondary opacity-50">IPM is one of the youth organizations of Muhammadiyah</small>
+                                        <small class="mb-1 text-secondary opacity-50">IPM merupakan salah satu organisasi kepemudaan di bawah Muhammadiyah</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1631,7 +1643,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Muhammadiyah University of Malang</small>
                                     <div class="my-3">
-                                        <small class="mb-1 text-secondary opacity-50">Assisting lecturers and departments in preparation for department accreditation</small>
+                                        <small class="mb-1 text-secondary opacity-50">Membantu dosen dan jurusan dalam persiapan akreditasi jurusan</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1663,7 +1675,7 @@
                                     </p>
                                     <small class="mb-1 text-secondary opacity-50">Volunteer, Coordinator</small>
                                     <div class="my-3">
-                                        <small class="mb-1 text-secondary opacity-50">Assisting lecturers and departments in preparation for technology product bazaar</small>
+                                        <small class="mb-1 text-secondary opacity-50">Membantu dosen dan jurusan dalam persiapan bazar produk teknologi</small>
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 border-0 bg-transparent">
@@ -1758,7 +1770,7 @@
                 {{-- <div class="py-5 bg-success text-white" id="portfolio">
                     Portfolio
                 </div> --}}
-                <div class="py-5" id="services">
+                {{-- <div class="py-5" id="services">
                     <div class="row align-items-end mb-5">
                         <div class="col-12 col-md-5 d-flex justify-content-start">
                             <img class="mb-5 mb-md-0" src="https://amanahin.viproject.net/img/thumbnail-2.webp" width="100%" alt="header amanahin">
@@ -1889,7 +1901,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="py-5 min-vh-100" id="contact">
                     <div class="row align-items-center mb-5">
                         <div class="col-12 col-md-4 mb-4">
@@ -1932,8 +1944,8 @@
                             <div class="card-body p-0 bg-transparent">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-md-7 p-5">
-                                        <h1 class="text-secondary mb-4">Open For <br class="d-md-none d-xxl-block">Collaboration</h1>
-                                        <p class="opacity-75">I am very enthusiastic about joining collaborations for projects from certain agencies or non-paid projects. With my experience and passion, I am confident that I can be a valuable asset for the team. I am open to being invited in interesting projects and ready to contribute as best as I can.</p>
+                                        <h1 class="text-secondary mb-4">Terbuka untuk <br class="d-md-none d-xxl-block">Freelance & Part-Time</h1>
+                                        <p class="opacity-75">Saya sangat antusias untuk diajak berkolaborasi dalam proyek, baik dari agency maupun proyek non-komersial. Dengan pengalaman dan passion yang saya miliki, saya yakin dapat menjadi aset berharga bagi tim. Saya terbuka untuk proyek freelance atau part-time yang menarik, dan siap memberikan kontribusi terbaik saya.</p>
 
                                         <div class="d-md-flex d-block align-items-center mb-4 mt-3">
                                             <div class="mb-2 d-flex align-items-center me-4">
@@ -1987,7 +1999,7 @@
                     <img src="{{ asset('assets/profile.webp') }}" style="width: 50px;height: 50px;aspect-ratio: 1/1;" class="rounded-3 mb-4">
                     <h5 class="text-white">My Curriculum Vitae</h5>
                     <small class="text-white opacity-50">
-                        Find brief information about my experience and skills here. <br class="d-none d-md-block"> I look forward to contributing to your project!
+                        Temukan informasi singkat tentang pengalaman dan keterampilan saya di sini. <br class="d-none d-xxl-block"> Saya menantikan untuk memberikan kontribusi pada proyek Anda!
                     </small>
                     <ul class="text-white opacity-75 fw-normal mb-3 mt-4 pt-2 list-unstyled">
                         <li class="mb-2">
@@ -2070,14 +2082,14 @@
                             </a>
                         </li> --}}
                         <li class="mb-2">
-                            <a href="/#services" class="text-decoration-none text-white">
+                            <a target="_blank" href="https://nave.viproject.net/" class="text-decoration-none text-white">
                                 <small>Services</small>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 pt-5">
-                    © 2024 <a class="text-decoration-none text-primary mx-1 fw-semibold" target="_blank" href="https://amanahin.viproject.net/">Amanahin Project</a> All rights reserved
+                    © {{ date('Y') }} <a class="text-decoration-none text-primary mx-1 fw-semibold" target="_blank" href="https://nave.viproject.net/">Nave Studio</a> All rights reserved
                 </div>
             </div>
         </div>
